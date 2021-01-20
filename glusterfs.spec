@@ -226,11 +226,11 @@ Summary:          Distributed File System
 %if ( 0%{_for_fedora_koji_builds} )
 Name:             glusterfs
 Version:          3.8.0
-Release:          0.1%{?prereltag:.%{prereltag}}
+Release:          0.1%{?prereltag:.%{prereltag}}%{?dist}
 %else
 Name:             glusterfs
 Version:          6.0
-Release:          37.1.p1
+Release:          37.1.p1%{?dist}
 ExcludeArch:      i686
 %endif
 License:          GPLv2 or LGPLv3+
@@ -2632,3 +2632,4 @@ fi
 
 * Sun Jul 15 2007 Matt Paine <matt@mattsoftware.com> - 1.3.pre6
 - Initial spec file
+
