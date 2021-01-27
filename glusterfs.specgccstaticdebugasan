@@ -1,4 +1,5 @@
-%global _hardened_build 1
+%undefine _hardened_build
+
 
 %global _for_fedora_koji_builds 0
 
@@ -8,6 +9,8 @@
 ##-----------------------------------------------------------------------------
 ## All argument definitions should be placed here and keep them sorted
 ##
+
+%{?_with_static:%global _with_static --enable-static}
 
 # asan
 # if you wish to compile an rpm with address sanitizer...
@@ -262,7 +265,7 @@ BuildRequires:    libasan
 BuildRequires:    libtsan
 %endif
 BuildRequires:    bison flex
-BuildRequires:    clang make libtool
+BuildRequires:    gcc make libtool
 BuildRequires:    ncurses-devel readline-devel
 BuildRequires:    libxml2-devel openssl-devel
 BuildRequires:    libaio-devel libacl-devel
@@ -600,7 +603,7 @@ Requires:         %{name}-fuse%{?_isa} = %{version}-%{release}
 Requires:         %{name}-server%{?_isa} = %{version}-%{release}
 ## thin provisioning support
 Requires:         lvm2 >= 2.02.89
-Requires:         perl(App::Prove) perl(Test::Harness) clang util-linux-ng
+Requires:         perl(App::Prove) perl(Test::Harness) gcc util-linux-ng
 Requires:         python%{_pythonver}
 Requires:         attr dbench file git libacl-devel net-tools
 Requires:         nfs-utils xfsprogs yajl psmisc bc
@@ -753,10 +756,21 @@ echo "fixing python shebangs..."
 # In RHEL7 few hardening flags are available by default, however the RELRO
 # default behaviour is partial, convert to full
 %if ( 0%{?rhel} && 0%{?rhel} >= 7 )
-export CC="clang"
-export CXX="clang++"
-LDFLAGS="$RPM_LD_FLAGS -Wl,-z,relro,-z,now"
-export LDFLAGS
+#export CC="clang"
+#export CXX="clang++"
+#CFLAGS="$RPM_OPT_FLAGS -U_FORTIFY_SOURCE"
+#CFLAGS="-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches  -fasynchronous-unwind-tables -fstack-clash-protection -U_FORTIFY_SOURCE"
+#CFLAGS="-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches  -fasynchronous-unwind-tables -fstack-clash-protection -U_FORTIFY_SOURCE -fno-pie"
+CFLAGS="-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches  -fasynchronous-unwind-tables -fstack-clash-protection -U_FORTIFY_SOURCE"
+#CFLAGS="-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches  -fasynchronous-unwind-tables -fstack-clash-protection -U_FORTIFY_SOURCE"
+#LDFLAGS="$RPM_LD_FLAGS -Wl,-z,relro,-z,now"
+#LDFLAGS="-Wl,-z,now"
+#LDFLAGS="$RPM_LD_FLAGS -Wl,-z,relro,-z,now"
+RPM_LD_FLAGS=""
+LDFLAGS=""
+#LDFLAGS="-Wl,-z,now -no-pie"
+#LDFLAGS="-nostartfiles -no-pie"
+#export LDFLAGS
 %else
 %if ( 0%{?rhel} && 0%{?rhel} == 6 )
 CFLAGS="$RPM_OPT_FLAGS -fPIE -DPIE"
@@ -772,6 +786,7 @@ export LDFLAGS
 %endif
 
 ./autogen.sh && %configure \
+        %{?_with_static} \
         %{?_with_asan} \
         %{?_with_cmocka} \
         %{?_with_debug} \

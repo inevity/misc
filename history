@@ -1,0 +1,1920 @@
+    1  ls
+    2  shutdown now
+    3  vi /etc/sysconfig/network-scripts/ifcfg-enp1s0 
+    4  nmtui
+    5  ip a
+    6  systemctl restart network
+    7  yum install network-scripts
+    8  ls
+    9  systemctl restart network
+   10  systemctl restart network
+   11  ip a
+   12  exit
+   13  exit
+   14  exit
+   15  ip addr
+   16  ping 192.168.1.10
+   17  exit
+   18  uname -a
+   19  cat /etc/issue
+   20  yum install cifs-utils
+   21  vi /etc/resolv.conf 
+   22  yum install cifs-utils
+   23  yum install cifs-utils
+   24  vi /etc/resolv.conf 
+   25  yum install cifs-utils
+   26  yum install cifs-utils
+   27  vi /etc/resolv.conf 
+   28  yum install cifs-utils
+   29  yum install cifs-utils
+   30  dmesg
+   31  dmesg
+   32  history 
+   33  ip addr
+   34  uname -a
+   35  exit
+   36  cat /etc/yum/vars/
+   37  history 
+   38  yum install cifs-utils
+   39  vi /etc/resolv.conf 
+   40  yum install cifs-utils
+   41  yum install cifs-utils
+   42  ls
+   43  cd KylinV10-SP1/
+   44  ls
+   45  cd RPMS/
+   46  ls
+   47  dmesg
+   48  ls
+   49  ls aarch64/
+   50  yum localinstall ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm 
+   51  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm 
+   52  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm 
+   53  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm 
+   54  ping update.cs2c.com.cn
+   55  vi /etc/resolv.conf 
+   56  ping update.cs2c.com.cn
+   57  vi /etc/resolv.conf 
+   58  cat /etc/system-release
+   59  cat /etc/system-release-cpe 
+   60  ls /etc/yum.repos.d
+   61  cat /etc/yum.repos.d/kylin_aarch64.repo 
+   62  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm 
+   63  git stauts
+   64  exit
+   65  exit
+   66  ls
+   67  mkdir deps
+   68  mv XDFS-5.5.6-sp1-aarch.tgz deps/
+   69  cd deps/
+   70  tar xvf XDFS-5.5.6-sp1-aarch.tgz 
+   71  cd ..
+   72  ls
+   73  ls KylinV10-SP1/RPMS/
+   74  ls KylinV10-SP1/RPMS/aarch64/
+   75  1yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   76  ls
+   77  cd KylinV10-SP1/
+   78  1yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   79  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   80  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   81  vim /etc/resolv.conf 
+   82  vi /etc/resolv.conf 
+   83  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   84  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   85  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   86  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   87  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   88  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   89  yum update
+   90  vi /etc/yum.conf 
+   91  vi /etc/yum.repos.d/kylin_aarch64.repo 
+   92  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+   93  ping www.baidu.com
+   94  vim /etc/resolv.conf 
+   95  vi /etc/resolv.conf 
+   96  ping www.baidu.com
+   97  vi /etc/resolv.conf 
+   98  ip a
+   99  ping www.baidu.com
+  100  cd KylinV10-SP1/
+  101  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  102  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  103  vi /etc/resolv.conf 
+  104  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  105  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  106  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  107  vi /etc/hostname 
+  108  cat /etc/yum.repos.d/kylin_aarch64.repo 
+  109  vi /etc/sysconfig/network-scripts/ifcfg-enp1s0 
+  110  ping update.cs2c.com.cn
+  111  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  112  vi /etc/hostname 
+  113  ls
+  114  ls
+  115  ls
+  116  ls RPMS/
+  117  cd RPMS/
+  118  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  119  vi /etc/yum.conf 
+  120  git status
+  121  git status
+  122  git status
+  123  yum install git
+  124  git status
+  125  cd ..
+  126  ls
+  127  cd SRPMS/
+  128  ls
+  129  cd ..
+  130  cd ..
+  131  1yum install --downloadonly  ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  132  yum install --help
+  133  mkdir downloaddeps
+  134  yum install --downloadonly --downloaddir=downloaddeps/ ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  135  cd KylinV10-SP1/RPMS/
+  136  yum install --downloadonly --downloaddir=/root/downloaddeps/ ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  137  ls /root/downloaddeps/
+  138  cd ..
+  139  cd ..
+  140  dmesg
+  141  ip addr
+  142  ip addr
+  143  gluster volume info
+  144  exit
+  145  df -h
+  146  fallocate -l 15G /mnt/brick
+  147  ls -la /mnt/brick 
+  148  -i size=512 /mnt/brick 
+  149  mkfs.xfs -i size=512 /mnt/brick 
+  150  mkdir /mnt/gbrick
+  151  mount /mnt/brick /mnt/brick 
+  152  mount /mnt/brick /mnt/gbrick/
+  153  df -h
+  154  gluster volume create myvol ip addr
+  155  hostname
+  156  hostnamectl -h
+  157  hostnamectl status
+  158  cat /etc/hostname 
+  159  cat /etc/hosts
+  160  cat /etc/host.conf 
+  161  1gluster volume create myvol ky-212
+  162  ping ky-212
+  163  ping localhost
+  164  ping ky-212
+  165  ping localhost.localdomain
+  166  hostnamectl -h
+  167  hostnamectl
+  168  1hostnamectl set-hostname --transient 
+  169  cat /etc/hostname 
+  170  cat /etc/hostname
+  171  hostnamectl 
+  172  hostnamectl status
+  173  ping 
+  174  ping ky-212
+  175  hostname
+  176  hostname ky-212
+  177  hostnamectl status
+  178  hostnamectl -h
+  179  hostnamectl status
+  180  hostnamectl
+  181  hostnamectl status
+  182  ping ky-212
+  183  history 
+  184  ping ky-212
+  185  gluster volume create myvol1 ky-212:/mnt/gbrick/
+  186  systemctl status glusterd
+  187  systemctl start glusterd
+  188  systemctl status glusterd
+  189  gluster volume create myvol1 ky-212:/mnt/gbrick/
+  190  mkdir /mnt/gbrick/subdir
+  191  gluster volume create myvol1 ky-212:/mnt/gbrick/subdir/
+  192  gluster volume info
+  193  gluster volume status
+  194  gluster volume --help
+  195  gluster volume help
+  196  gluster volume start myvol1
+  197  gluster volume info
+  198  gluster volume status
+  199  ps -ef|grep status
+  200  ps -ef|grep glus
+  201  ps -ef
+  202  df -h
+  203  history 
+  204  fallocate -l 2G /mnt/brick2g
+  205  mkfs.xfs -i size=512 /mnt/brick2g 
+  206  mkdir /mnt/gbrick2g
+  207  mount /mnt/brick2g /mnt/gbrick2g/
+  208  mkdir /mnt/gbrick2g/subdir
+  209  gluster volume tier myvol1  attach ky-212:/mnt/gbrick2g/subdir/
+  210  gluster volume info
+  211  gluster volume status
+  212  history 
+  213  yum info to
+  214  yum info userspace-rcu
+  215  gluster volume tier myvol1 status
+  216  gluster v rebal myvol1 status
+  217  1gluster v rebal myvol1 statusgluster v status
+  218  gluster v status myvol1
+  219  history 
+  220  ps -ef|grep glus
+  221  gluster volume info
+  222  gluster volume tier myvol1 info
+  223  gluster volume tier myvol1 status
+  224  history 
+  225  dmesg
+  226  dmesg
+  227  df -h
+  228  gluster volume tier myvol1 info
+  229  df -h
+  230  ps -ef|grep glusterfsd
+  231  ps -ef|grep glus
+  232  gluster volume info
+  233  gluster volume tier myvol1 status
+  234  gluster volume tier myvol1 
+  235  gluster volume tier myvol1 start
+  236  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  237  vi /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  238  vi /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  239  ulimit -S -c unlimited > /dev/null 2>&1
+  240  vi /etc/systemd/system.conf 
+  241  systemctl daemon-reexec
+  242  ulimit -a
+  243  cat /proc/sys/kernel/core_pattern
+  244  vi /usr/lib/systemd/system/glusterd.service 
+  245  vi /usr/lib/systemd/system/glusterfssharedstorage.service 
+  246  vi /usr/lib/systemd/system/glusterfssharedstorage.service 
+  247  cat /usr/libexec/glusterfs/mount-shared-storage.sh
+  248  vi /usr/lib/systemd/system/glusterfssharedstorage.service 
+  249  systemctl status glusterfsd
+  250  vi /etc/security/limits.conf
+  251  vi /etc/sysctl.conf 
+  252  sysctl kernel.core_pattern
+  253  ls /var/spool/abrt
+  254  yum info abrt abrt-addon-ccpp abrt-tui
+  255  ls 
+  256  ls /var/crash/
+  257  ls /var/crash/
+  258  ls /var/spool/cron/
+  259  find / -name *core*
+  260  ls /var/lib/systemd/coredump
+  261  ls -lah /var/lib/systemd/coredump
+  262  systemctl restart glusterd
+  263  ls -lah /var/lib/systemd/coredump
+  264  ls -laht /var/lib/systemd/coredump
+  265  cd /var/lib/systemd/coredump/
+  266  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000.lz4
+  267  ls -lah
+  268  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  269  echo "add-auto-load-safe-path /usr/lib64/libthread_db-1.0.so" >> /root/.gdbinit
+  270  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  271  vi /root/.gdbinit 
+  272  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  273  uname -a
+  274  cat /proc/cpuinfo 
+  275  uname -a
+  276  lscpu | grep Endian
+  277  uname -a
+  278  uname -a
+  279  ls
+  280  vi /var/log/glusterfs/tier/myvol1/tierd.log 
+  281  vi /var/log/glusterfs/tier/myvol1/tierd.log 
+  282  vim /etc/hosts 
+  283  vi /etc/hosts
+  284  ip addr
+  285  cd /var/lib/systemd/coredump/
+  286  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  287  cd /var/lib/systemd/coredump/
+  288  uname -a
+  289  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  290  ls /lib/x86_64-linux-gnu
+  291  ls /lib/x86_64-linux-gnu/libpthread.so.0 
+  292  ls /lib64/x86_64-linux-gnu
+  293  ls /lib64/libthread_db.so.1
+  294  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  295  vim ~/.gdbinit
+  296  yum install vim
+  297  vim ~/.gdbinit
+  298  vim ~/.gdbinit
+  299  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  300  vim ~/.gdbinit
+  301  vim ~/.gdbinit
+  302  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  303  vim ~/.gdbinit
+  304  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  305  vim ~/.gdbinit
+  306  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  307  vim ~/.gdbinit
+  308  find /lib64 -name libpthread.so.0
+  309  find /lib64 -name libpthread.so*
+  310  find /usr -name libpthread.so*
+  311  vim ~/.gdbinit
+  312  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  313  vim ~/.gdbinit
+  314  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  315  ldd /usr/sbin/glusterfsd
+  316  rpm -qf /lib64/libthread_db.so.1
+  317  rpm -qf /lib64/libthread.so.0
+  318  rpm -qf /lib64/libthread.so
+  319  rpm -qf /lib64/libpthread.so.0
+  320  rpm -qf /lib64/libthread_db.so.1
+  321  yum --help
+  322  yum upgrade glibc
+  323  vim ~/.gdbinit 
+  324  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  325  rpm -qf /lib64/libc.so.6
+  326  debuginfo-install glibc
+  327  vim /etc/yum.repos.d/kylin_aarch64.repo
+  328  yum search debuginfo
+  329  yum info yum-plugin-auto-update-debug-info.noarch
+  330  cat /etc/yum.repos.d/kylin_aarch64.repo
+  331  vi /etc/yum.repos.d/kylin_aarch64.repo 
+  332  yum upgrade glibc
+  333  history 
+  334  yum search glibc-debuginfo
+  335  yum install glibc-debuginfo.
+  336  yum install glibc-debuginfo
+  337  cat /etc/yum.repos.d/kylin_aarch64.repo 
+  338  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  339  cat ~/.gdbinit 
+  340  ls
+  341  cd KylinV10-SP1/
+  342  ls
+  343  cd RPMS
+  344  ls
+  345  ls aarch64/
+  346  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4476.1610950982000000000000
+  347  ls -laht
+  348  history |grep lz
+  349  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4750.1610950982000000000000.lz4
+  350  lz4 -d core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.4771.1610950983000000000000.lz4 
+  351  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.4750.1610950982000000000000
+  352  gdb /usr/sbin/glusterfsd core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.4771.1610950983000000000000
+  353  ls
+  354  cd ..
+  355  ls
+  356  ls SRPMS/
+  357  ls
+  358  cd SRPMS/
+  359  rpm -ivh glusterfs-6.0-37.1.p1.ky10.src.rpm 
+  360  ls
+  361  cd /root/rpmbuild/
+  362  ls
+  363  ls SOURCES/
+  364  cd SOURCES/
+  365  ls
+  366  ls -laht
+  367  tar xvf glusterfs-6.0.tar.gz 
+  368  find glusterfs-6.0 -name event.c
+  369  vim glusterfs-6.0/libglusterfs/src/event.c
+  370  grep -nr _gf_event glusterfs-6.0
+  371  find glusterfs-6.0 -name dht-rebalance.c 
+  372  vim glusterfs-6.0/xlators/cluster/dht/src/dht-rebalance.c
+  373  cd glusterfs-6.0
+  374  yum install cscope
+  375  cscope -Rbq
+  376  vim xlators/cluster/dht/src/dht-rebalance.c
+  377  vim xlators/cluster/dht/src/dht-rebalance.c
+  378  grep -nri gf_event .
+  379  vim ./events/src/gf_event.py
+  380  vim glusterfs-6.0/libglusterfs/src/event.c
+  381  vim libglusterfs/src/event.c
+  382  wget http://cscope.sourceforge.net/cscope_maps.vim
+  383  vim /etc/vimrc 
+  384  cat cscope_maps.vim
+  385  mkdir -p ~/.vim/plugin
+  386  mv cscope_maps.vim ~/.vim/plugin/
+  387  vim libglusterfs/src/event.c
+  388  vim xlators/cluster/dht/src/dht-rebalance.c
+  389  ldd /usr/sbin/glusterfsd
+  390  file /usr/sbin/glusterfsd
+  391  readelf -p .GCC.command.line /usr/sbin/glusterfsd
+  392  strings /usr/sbin/glusterfsd
+  393  objdump -s --section .comment /usr/sbin/glusterfsd
+  394  objdump -s -j --section .comment /usr/sbin/glusterfsd
+  395  objdump -sj --section .comment /usr/sbin/glusterfsd
+  396  readelf -p .comment /usr/sbin/glusterfsd
+  397  strings -a /usr/sbin/glusterfsd|grep gcc
+  398  strings -a /usr/sbin/glusterfsd|grep -i gcc
+  399  strings -a /usr/sbin/glusterfsd
+  400  strings -a /usr/sbin/glusterfsd|grep gcc
+  401  readelf -S /usr/sbin/glusterfsd
+  402  objdump -sj .note.ABI-tag /usr/sbin/glusterfsd
+  403  objdump -sjn .note.ABI-tag /usr/sbin/glusterfsd
+  404  objdump -n .note.ABI-tag /usr/sbin/glusterfsd
+  405  readelf -n /usr/sbin/glusterfsd
+  406  readelf -h /usr/sbin/glusterfsd
+  407  yum info glibc
+  408  gcc --version
+  409  yum info gcc
+  410  yum upgrade gcc
+  411  yum info glibc
+  412  yum search clang
+  413  yum info clang
+  414  dmesg
+  415  yum info clang
+  416  ls
+  417  pwd
+  418  cd /root
+  419  ls
+  420  ls KylinV10-SP1/
+  421  ls KylinV10-SP1/SRPMS/
+  422  ls rpmbuild/SOURCES/
+  423  ls rpmbuild/SOURCES/glusterfs-6.0
+  424  ls rpmbuild/SPECS/
+  425  vim rpmbuild/SPECS/glusterfs.spec 
+  426  vim rpmbuild/SPECS/glusterfs.spec 
+  427  cat /etc/kylin-release 
+  428  cat /etc/issue
+  429  cat /etc/kylin-release 
+  430  cat /etc/kylin-release 
+  431  rsync -av
+  432  ip addr
+  433  vim arm.spec
+  434  vimdiff arm.spec rpmbuild/SPECS/glusterfs.spec 
+  435  ls 
+  436  ls rpmbuild/SOURCES/
+  437  ls KylinV10-SP1/SRPMS/
+  438  vimdiff arm.spec rpmbuild/SPECS/glusterfs.spec 
+  439  vim arm.spec 
+  440  grep -nr dist arm.spec 
+  441  rpm --eval %{?dist}
+  442  vimdiff arm.spec rpmbuild/SPECS/glusterfs.spec 
+  443  mkdir specs
+  444  mv arm.spec specs/
+  445  cp rpmbuild/SPECS/glusterfs.spec specs/
+  446  cd specs/
+  447  ls
+  448  git init
+  449  git status
+  450  git add glusterfs.spec 
+  451  git commit -m "raw qilin spec"
+  452   git config --global user.email "baojg@taocloudx.com"
+  453  git config --global user.name "baojg"
+  454  git commit -m "raw qilin spec"
+  455  git add arm.spec 
+  456  git commit -m "arm centos spec"
+  457  cp arm.spec glusterfs.spec 
+  458  git status
+  459  git diff
+  460  git add glusterfs.spec 
+  461  git commit -m "add dist macro in the Release"
+  462  git status
+  463  vim glusterfs.spec 
+  464  cat /etc/kylin-release 
+  465  vim glusterfs.spec 
+  466  grep -nr rhel glusterfs.spec 
+  467  cat /etc/yum.conf 
+  468  cat /etc/yum.conf 
+  469  cat /etc/yum.repos.d/kylin_aarch64.repo 
+  470  vim glusterfs.spec 
+  471  yum search asan
+  472  vim glusterfs.spec 
+  473  grep -nri with-bd /root/rpmbuild/SOURCES/glusterfs-6.0
+  474  grep -nri with_bd /root/rpmbuild/SOURCES/glusterfs-6.0
+  475  grep -nri with_bd /root/rpmbuild/SOURCES/glusterfs-6.0
+  476  vim /root/rpmbuild/SOURCES/glusterfs-6.0/configure.ac 
+  477  grep -nr bd /root/rpmbuild/SOURCES/glusterfs-6.0/configure.ac
+  478  grep -nr bd /root/rpmbuild/SOURCES/glusterfs-6.0/configure
+  479  grep -nr bd /root/rpmbuild/SOURCES/glusterfs-6.0/configure|grep with
+  480  vim glusterfs.spec 
+  481  git diff
+  482  vim glusterfs.spec 
+  483  vim glusterfs.spec 
+  484  yum info libtirpc
+  485  yum install --downloadonly libtirpc
+  486  ls
+  487  cat /etc/yum.repos.d/kylin_aarch64.repo 
+  488  vim glusterfs.spec 
+  489  rpm --eval %{?dist}
+  490  vim glusterfs.spec 
+  491  rpm --eval %{?rhel}
+  492  rpm --eval %{?rhel}
+  493  vim glusterfs.spec 
+  494  git diff
+  495  git checkout -- glusterfs.spec
+  496  git status
+  497  vim glusterfs.spec 
+  498  git diff
+  499  python --version
+  500  gcc --version
+  501  yum info gcc
+  502  yum search devtoolset
+  503  yum search devtoolset
+  504  yum search devtoolset-
+  505  yum search devtoolset
+  506  yum search devtools
+  507  yum info rpmdevtools-help
+  508  vim /etc/yum.repos.d/kylin_aarch64.repo 
+  509  yum search devtools
+  510  yum search devtools
+  511  yum search rhscl
+  512  yum search scl
+  513  yum search collections
+  514  yum search tool
+  515  yum search devtool
+  516  yum search devtoolset-9-gcc
+  517  rpm --eval %{?rhel}
+  518  rpm --eval %{?dist}
+  519  cat /etc/yum.repos.d/kylin_aarch64.repo 
+  520  cd /root/rpmbuild/SOURCES/glusterfs-6.0
+  521  ./configure -h
+  522  rpm --eval %{optflags}
+  523  [root@node211 ~]# rpm --eval %{optflags}
+  524  rpm --eval %{optflags}
+  525  rpm -E "%{build_ldflags}"
+  526  cat /usr/lib/rpm/kylin/kylin-hardened-ld
+  527  cat usr/lib/rpm/redhat/macros
+  528  cat /usr/lib/rpm/redhat/macros
+  529  cd /root
+  530  ls
+  531  vim specs/
+  532  cd specs/
+  533  vim glusterfs.spec 
+  534  yum info clang
+  535  yum search clang
+  536  yum install clang 
+  537  vim glusterfs.spec 
+  538  git diff
+  539  git status
+  540  grep -nr gcc glusterfs.spec 
+  541  yum info redhat-rpm-config
+  542  yum info search rpm-config
+  543  yum info search config
+  544  yum search rpm-config
+  545  yum install kylin-rpm-config multilib-rpm-confi
+  546  yum install kylin-rpm-config multilib-rpm-config
+  547  cp glusterfs.spec /root/rpmbuild/SPECS/glusterfs.spec 
+  548  cd /root/rpmbuild/SPECS/
+  549  1rpmbuild -ba glusterfs.spec 
+  550  mv ../SOURCES/glusterfs-6.0 /root
+  551  rpmbuild -ba glusterfs.spec 
+  552  yum install rpm-build
+  553  rpmbuild -ba glusterfs.spec 
+  554  vim glusterfs.spec 
+  555  history |grep dist
+  556  rpm --eval %{?dist}
+  557  vim glusterfs.spec 
+  558  rpm --eval %{?rhel}
+  559  vim glusterfs.spec 
+  560  rpmbuild -ba glusterfs.spec 
+  561  vim glusterfs.spec 
+  562  rpmbuild -ba glusterfs.spec 
+  563  vim xlators/cluster/dht/src/dht-rebalance.c
+  564  vim glusterfs.spec 
+  565  cd rpmbuild/SPECS/
+  566  ls
+  567  vim glusterfs.spec 
+  568  rpmbuild -ba glusterfs.spe
+  569  ls
+  570  rpmbuild -ba glusterfs.spec
+  571  vim glusterfs.spec 
+  572  rpmbuild -ba glusterfs.spec
+  573  vim glusterfs.spec 
+  574  rpm --eval %{?dist}
+  575  vim glusterfs.spec 
+  576  rpmbuild -ba glusterfs.spec
+  577  vim glusterfs.spec 
+  578  rpmbuild -ba glusterfs.spec
+  579  vim glusterfs.spec 
+  580  rpmbuild -ba glusterfs.spec
+  581  vim glusterfs.spec 
+  582  vim glusterfs.spec 
+  583  vim glusterfs.spec 
+  584  rpmbuild -ba glusterfs.spec
+  585  vim glusterfs.spec 
+  586  rpmbuild -ba glusterfs.spec
+  587  vim glusterfs.spec 
+  588  grep -nr configure .
+  589  vim ./glusterfs.spec
+  590  rpmbuild -ba glusterfs.spec
+  591  1yum install bison flex fuse-devel  libaio-devel libcurl-devel libibverbs-devel librdmacm-devel libtirpc-devel  libtool libxml2-devel ncurses-devel openssl-devel python3-devel readline-devel rpcgen userspace-rcu-devel 
+  592  vim glusterfs.spec 
+  593  yum install bison flex fuse-devel  libaio-devel libcurl-devel libibverbs-devel librdmacm-devel libtirpc-devel  libtool libxml2-devel ncurses-devel openssl-devel python3-devel readline-devel rpcgen userspace-rcu-devel 
+  594  rpmbuild -ba glusterfs.spec
+  595  ls
+  596  cp glusterfs.spec /root/specs/
+  597  cd ../RPMS/
+  598  ls
+  599  ls  -lah ../SRPMS/glusterfs-6.0-37.1.p1.ky10.ky10.src.rpm 
+  600  ls  -lah 
+  601  ls aarch64/
+  602  cd ../SPECS/
+  603  ls
+  604  vim glusterfs.spec 
+  605  cp glusterfs.spec /root/rpmbuild/SPECS/glusterfs.spec 
+  606  cp glusterfs.spec /root/specs/
+  607  rpmbuild -ba glusterfs.spec
+  608  ls
+  609  cp glusterfs.spec /root/specs/
+  610  git status
+  611  cd ../RPMS/
+  612  ls
+  613  ls aarch64/
+  614  vim ../SPECS/glusterfs.spec 
+  615  ls /root/
+  616  ls /root/KylinV10-SP1/
+  617  mkidr /root/mybuildwithclangrpmbuild
+  618  mkdir /root/mybuildwithclangrpmbuild
+  619  rsync -av /root/rpmbuild/ /root/mybuildwithclangrpmbuild/
+  620  ls
+  621  dmesg
+  622  ls
+  623  cd ..
+  624  cd ..
+  625  ls
+  626  ls glusterfs-6.0/
+  627  cd mybuildwithclangrpmbuild/
+  628  history 
+  629  history |grep yum
+  630  vim /etc/yum.conf 
+  631  1yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  632  yum list|grep glusterfs*
+  633  ls RPMS/
+  634  ls RPMS/aarch64/
+  635  rm -rf RPMS/aarch64/*ky10.ky10*
+  636  ls RPMS/aarch64/
+  637  rm -rf ../rpmbuild/RPMS/aarch64/*ky10.ky10*
+  638  ls ../rpmbuild/RPMS/aarch64/
+  639  ls ../rpmbuild/RPMS/noarch/glusterfs-resource-agents-6.0-37.1.p1.ky10.
+  640  rm  ../rpmbuild/RPMS/noarch/glusterfs-resource-agents-6.0-37.1.p1.ky10.ky10.noarch.rpm 
+  641  rm -rf RPMS/noarch/glusterfs-resource-agents-6.0-37.1.p1.ky10.ky10.noarch.rpm 
+  642  rm -rf SRPMS/glusterfs-6.0-37.1.p1.ky10.ky10.src.rpm 
+  643  rm rf ../rpmbuild/SRPMS/glusterfs-6.0-37.1.p1.ky10.ky10.src.rpm
+  644  rm -rf ../rpmbuild/SRPMS/glusterfs-6.0-37.1.p1.ky10.ky10.src.rpm
+  645  git status
+  646  ls
+  647  yum --help
+  648  rpm -qa |grep python
+  649  rpm -qa |grep glust
+  650  yum list installed|grep gluster
+  651  yum list installed|grep gluster|awk -F. '{print $1}'
+  652  yum list installed|grep gluster|awk -F. '{print $1}'|xargs yum remove
+  653  yum list installed|grep gluster|awk -F. '{print $1}'|xargs yum remove
+  654  yum list installed|grep gluster|awk -F. '{print $1}'|xargs
+  655  yum remove --help
+  656  yum list installed|grep gluster|awk -F. '{print $1}'|xargs
+  657  yum remove --noautoremove glusterfs glusterfs-api glusterfs-api-devel glusterfs-cli glusterfs-client-xlators glusterfs-debuginfo glusterfs-debugsource glusterfs-devel glusterfs-events glusterfs-fuse glusterfs-libs glusterfs-server python3-gluster
+  658  cd RPMS/
+  659  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  660  cp /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick-subdir.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick-subdir.vol
+  661  cp /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-fuse.vol
+  662  cp /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-gfproxy-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-gfproxy-fuse.vol
+  663  cp /var/lib/glusterd/vols/myvol1/myvol1.tcp-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.tcp-fuse.vol
+  664  cp /var/lib/glusterd/vols/myvol1/myvol1.gfproxyd.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.gfproxyd.vol
+  665  cp /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick2g-subdir.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick2g-subdir.vol
+  666  cp /var/lib/glusterd/vols/myvol1/myvol1-rebalance.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1-rebalance.vol
+  667  cp /var/lib/glusterd/vols/myvol1/myvol1-tierd.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1-tierd.vol
+  668  ps -ef|grep glus
+  669  ps -ef|grep gluster
+  670  ps -ef
+  671  df -h
+  672  systemctl status glusterd
+  673  systemctl start glusterd
+  674  systemctl status glusterd
+  675  ps -ef|grep gluster
+  676  gluster volume info
+  677  gluster volume status
+  678  gluster volume status detail
+  679  gluster volume status myvol1  detail
+  680  gluster volume tier myvol1 status
+  681  gluster volume tier myvol1 start
+  682  gluster volume tier myvol1 status
+  683  gluster volume tier myvol1 status
+  684  gluster volume status myvol1  detail
+  685  gluster volume info
+  686  ls /var/lib/systemd/coredump/ -laht
+  687  cd /var/lib/systemd/coredump/
+  688  ls
+  689  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.182941.1611198011000000000000.lz4
+  690  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.182941.1611198011000000000000
+  691  ls -laht
+  692  lz4 -d core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.182969.1611198011000000000000.lz4
+  693  gdb /usr/sbin/glusterfs core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.182969.1611198011000000000000
+  694  glusterfsd --version
+  695  glusterfsd -V
+  696  glusterfsd --help
+  697  r1pm --eval %{?dist}
+  698  rpm --eval %{optflags}
+  699  dmesg
+  700  dmesg
+  701  ls
+  702  cd glusterfs-6.0/
+  703  ls
+  704  1rpmbuild -ba glusterfs.spec
+  705  df -h
+  706  cd ~/
+  707  ls
+  708  vim a.c
+  709  gcc a.c -o a
+  710  ./a 1 2 3 4 5 6 7 8
+  711  ls
+  712  ls /var/lib/systemd/coredump/ -laht
+  713  ./a 1 2 3 4 5 6 7 8
+  714  gcc  -fstack-protector-strong a.c -o a
+  715  ./a 1 2 3 4 5 6 7 8
+  716  gcc -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/kylin/kylin-hardened-cc1 -fasynchronous-unwind-tables -fstack-clash-protection -I/usr/lib64/gfortran/modules  a.c -o a
+  717  ./a 1 2 3 4 5 6 7 8
+  718  ./a 1 2 3 4 5 6 7 8 9
+  719  ./a 1 2 3 4 5 6 7 8
+  720  vim a.c 
+  721  vim a.c 
+  722  gcc a.c -o a -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/kylin/kylin-hardened-cc1 -fasynchronous-unwind-tables -fstack-clash-protection -I/usr/lib64/gfortran/modules -no-pie -ggdb3
+  723  ./a 1 2 3 4 5 6 7 8
+  724  ./a 1 2 3 4 5 6 7 8 9
+  725  ./a 1 2 3 4 5 6 7 8 9 10
+  726  ulimit -c unlimited
+  727  ./a 1 2 3 4 5 6 7 8 9 10
+  728  ls
+  729  cd -
+  730  history 
+  731  vim libglusterfs/src/event.c 
+  732  grep -nr sin_family .
+  733  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.182941.1611198011000000000000
+  734  ls -laht
+  735  cd -
+  736  ls
+  737  cd rpmbuild/RPMS/
+  738  ls
+  739  rm -rf aarch64/*
+  740  rm -rf noarch/*
+  741  cd ../SRPMS/
+  742  ls
+  743  rm -rf glusterfs-6.0-37.1.p1.ky10.src.rpm 
+  744  cd ../SPECS/
+  745  ls
+  746  vim glusterfs.spec 
+  747  grep -nr clang .
+  748  history |grep remove
+  749  yum remove --noautoremove glusterfs glusterfs-api glusterfs-api-devel glusterfs-cli glusterfs-client-xlators glusterfs-debuginfo glusterfs-debugsource glusterfs-devel glusterfs-events glusterfs-fuse glusterfs-libs glusterfs-server python3-gluster
+  750  systemctl status glusterd
+  751  ps -ef|grep glus
+  752  systemctl stop glusterd
+  753  ps -ef|grep glus
+  754  kill -9 182949
+  755  ps -ef|grep glus
+  756  yum remove --noautoremove glusterfs glusterfs-api glusterfs-api-devel glusterfs-cli glusterfs-client-xlators glusterfs-debuginfo glusterfs-debugsource glusterfs-devel glusterfs-events glusterfs-fuse glusterfs-libs glusterfs-server python3-gluster
+  757  ls
+  758  vim ./libglusterfs/src/events.c
+  759  vim extras/LinuxRPM/Makefile.am 
+  760  rpmbuild -ba glusterfs.spec
+  761  cd ..
+  762  cd ..
+  763  mkdir mybuildwithgcc
+  764  rsync -av rpmbuild/ mybuildwithgcc/
+  765  cd mybuildwithgcc/
+  766  ls
+  767  cd RPMS/
+  768  ls
+  769  yum localinstall ./aarch64/glusterfs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-api-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-cli-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-client-xlators-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-fuse-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-libs-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-debugsource-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-devel-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-events-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/glusterfs-server-6.0-37.1.p1.ky10.aarch64.rpm ./aarch64/python3-gluster-6.0-37.1.p1.ky10.aarch64.rpm
+  770  history 
+  771  history |grep cp
+  772  cp /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick-subdir.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick-subdir.vol
+  773  cp /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-fuse.vol
+  774  cp /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-gfproxy-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/trusted-myvol1.tcp-gfproxy-fuse.vol
+  775  cp /var/lib/glusterd/vols/myvol1/myvol1.tcp-fuse.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.tcp-fuse.vol
+  776  cp /var/lib/glusterd/vols/myvol1/myvol1.gfproxyd.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.gfproxyd.vol
+  777  cp /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick2g-subdir.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1.ky-212.mnt-gbrick2g-subdir.vol
+  778  cp /var/lib/glusterd/vols/myvol1/myvol1-rebalance.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1-rebalance.vol
+  779  cp /var/lib/glusterd/vols/myvol1/myvol1-tierd.vol.rpmsave /var/lib/glusterd/vols/myvol1/myvol1-tierd.vol
+  780  systemctl status glusterd
+  781  systemctl start glusterd
+  782  systemctl status glusterd
+  783  ls -laht /var/lib/systemd/coredump/
+  784  vim /var/log/glusterfs/glusterd.log 
+  785  vim /var/log/glusterfs/cli.log 
+  786  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  787  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  788  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  789  cd /var/lib/systemd/coredump/
+  790  ls -laht
+  791  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.270102.1611217046000000000000.lz4
+  792  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.270102.1611217046000000000000
+  793  ls -laht
+  794  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.270095.1611217046000000000000.lz4
+  795  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.270095.1611217046000000000000
+  796  ls -laht
+  797  lz4 -d core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.270125.1611217046000000000000.lz4
+  798  gdb /usr/sbin/glusterfsd  core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.270125.1611217046000000000000
+  799  ls -laht
+  800  glusterfsd -h
+  801  systemctl status glusterd
+  802  vim /usr/lib/systemd/system/glusterd.service
+  803  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  804  vim /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  805  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  806  ps -ef|grep glus
+  807  systemctl stop glusterd
+  808  systemctl start glusterd
+  809  systemctl status glusterd
+  810  ps -ef|grep glu
+  811  tail -f /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  812  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  813  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  814  vim /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  815  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  816  vim /var/log/glusterfs/tier/myvol1/tierd.log
+  817  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  818  vim /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  819  git status
+  820  git status
+  821  gluster volume status myvol1  detail
+  822  gluster volume status
+  823  ps -ef|grep glus
+  824  gluster volume info
+  825  history |grep tier
+  826  gluster volume tier myvol1 info
+  827  gluster volume tier myvol1 status
+  828  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log
+  829  ps -ef|grep gdb
+  830  ps -ef|grep glusterfs-6.0/
+  831  ps -ef|grep glust
+  832  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152
+  833  glusterfsd --help
+  834  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  835  ps -ef|grep glusterfsd
+  836  kill -9 271281
+  837  ip addr
+  838  cat /etc/kylin-release 
+  839  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  840  gdb --args /usr/sbin/glusterfs version 6.0 (args: /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0
+  841  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0
+  842  ps -ef|grep glus
+  843  git status
+  844  git status
+  845  git volume info
+  846  gluster volume info
+  847  gluster volume status
+  848  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  849  ps -ef
+  850  ps -ef|grep glus
+  851  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  852  ls -laht /var/log/glusterfs/tier/myvol1/tierd.log
+  853  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  854  1gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  855  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  856  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  857  vim /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  858  ps -ef|grep glu
+  859  vim glusterfs-6.0/libglusterfs/src/event.c 
+  860  vim glusterfs-6.0/libglusterfs/src/event.c 
+  861  find glusterfs-6.0/ -name events.c
+  862  vim glusterfs-6.0/libglusterfs/src/events.c
+  863  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  864  gdb -p 270710
+  865  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  866  ps -ef|grep glu
+  867  echo $CFLAGS
+  868  cat /proc/cmdline 
+  869  annobin
+  870  annocheck
+  871  rpm -qf /usr/bin/annocheck
+  872  yum install annobin-annocheck
+  873  cat /proc/sys/kernel/randomize_va_space 
+  874  cat /usr/lib/rpm/kylin/kylin-hardened-cc1
+  875  cat cat /proc/sys/kernel/randomize_va_space
+  876  cat /proc/sys/kernel/randomize_va_space
+  877  ps -ef|grep glus
+  878  systemctl stop glusterd
+  879  ls 
+  880  mkdir mybuildwithgccnoaslr
+  881  cd rpmbuild/
+  882  ls
+  883  rm -rf RPMS/aarch64/*
+  884  rm -rf RPMS/noarch/*
+  885  ls
+  886  rm -rf SRPMS/glusterfs-6.0-37.1.p1.ky10.src.rpm 
+  887  vim SPECS/glusterfs.spec 
+  888  cp SPECS/glusterfs.spec /root/glusterfs.specgcc
+  889  vim SPECS/glusterfs.spec 
+  890  rpmbuild -ba glusterfs.spec
+  891  cd SPECS/
+  892  rpmbuild -ba glusterfs.spec
+  893  vim glusterfs.spec 
+  894  vim glusterfs.spec 
+  895  rpmbuild -ba glusterfs.spec
+  896  vim glusterfs.spec 
+  897  rpmbuild -ba glusterfs.spec
+  898  ls
+  899  rsync ../ /root/mybuildwithgccnoaslr/
+  900  rsync -av ../ /root/mybuildwithgccnoaslr/
+  901  history |grep cp
+  902  cd /root
+  903  vim glusterconfig.sh
+  904  history |grep remove
+  905  vim glusterconfig.sh 
+  906  vim glusterconfig.sh 
+  907  history |grep localin
+  908  vim glusterconfig.sh 
+  909  vim glusterconfig.sh 
+  910  bash glusterconfig.sh 
+  911  vim glusterconfig.sh 
+  912  man cp
+  913  cp -h
+  914  cp --help
+  915  vim glusterconfig.sh 
+  916  cp rpmbuild/SPECS/glusterfs.spec glusterfs.specgccnoaslr
+  917  bash glusterconfig.sh 
+  918  systemctl status glusterd
+  919  history |grep gdb
+  920  history >>history
+   26  vim glusterfs-6.0/libglusterfs/src/event.c 
+   27  find glusterfs-6.0/ -name events.c
+   28  vim glusterfs-6.0/libglusterfs/src/events.c
+   29  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+   30  gdb -p 270710
+   31  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+   32  ps -ef|grep glu
+   33  echo $CFLAGS
+   34  cat /proc/cmdline 
+   35  annobin
+   36  annocheck
+   37  rpm -qf /usr/bin/annocheck
+   38  yum install annobin-annocheck
+   39  cat /proc/sys/kernel/randomize_va_space 
+   40  cat /usr/lib/rpm/kylin/kylin-hardened-cc1
+   41  cat cat /proc/sys/kernel/randomize_va_space
+   42  cat /proc/sys/kernel/randomize_va_space
+   43  ps -ef|grep glus
+   44  systemctl stop glusterd
+   45  ls 
+   46  mkdir mybuildwithgccnoaslr
+   47  cd rpmbuild/
+   48  ls
+   49  rm -rf RPMS/aarch64/*
+   50  rm -rf RPMS/noarch/*
+   51  ls
+   52  rm -rf SRPMS/glusterfs-6.0-37.1.p1.ky10.src.rpm 
+   53  vim SPECS/glusterfs.spec 
+   54  cp SPECS/glusterfs.spec /root/glusterfs.specgcc
+   55  vim SPECS/glusterfs.spec 
+   56  rpmbuild -ba glusterfs.spec
+   57  cd SPECS/
+   58  rpmbuild -ba glusterfs.spec
+   59  vim glusterfs.spec 
+   60  vim glusterfs.spec 
+   61  rpmbuild -ba glusterfs.spec
+   62  vim glusterfs.spec 
+   63  rpmbuild -ba glusterfs.spec
+   64  ls
+   65  rsync ../ /root/mybuildwithgccnoaslr/
+   66  rsync -av ../ /root/mybuildwithgccnoaslr/
+   67  history |grep cp
+   68  cd /root
+   69  vim glusterconfig.sh
+   70  history |grep remove
+   71  vim glusterconfig.sh 
+   72  vim glusterconfig.sh 
+   73  history |grep localin
+   74  vim glusterconfig.sh 
+   75  vim glusterconfig.sh 
+   76  bash glusterconfig.sh 
+   77  vim glusterconfig.sh 
+   78  man cp
+   79  cp -h
+   80  cp --help
+   81  vim glusterconfig.sh 
+   82  cp rpmbuild/SPECS/glusterfs.spec glusterfs.specgccnoaslr
+   83  bash glusterconfig.sh 
+   84  systemctl status glusterd
+   85  history |grep gdb
+   86  history >>history
+   87  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+   88  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+   89  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153
+   90  ps -ef|grep glus
+   91  /usr/sbin/glusterfsd  --debug -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153
+   92  ls
+   93  ls -laht /var/lib/systemd/coredump/
+   94  ls -laht /var/log/glusterfs/bricks/
+   95  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+   96  systemctl status glusterd
+   97  systemctl start glusterd
+   98  systemctl status glusterd
+   99  ps -ef|grep glus
+  100  history |grep coredump
+  101  ls -laht /var/lib/systemd/coredump/
+  102  cd /var/lib/systemd/coredump/
+  103  lz4 -d core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.416334.1611309164000000000000.lz4
+  104  gdb /usr/sbin/glusterfsd core.glusterfsd.0.f19b17c4d1354237a644e4c67d04f2af.416334.1611309164000000000000
+  105  lz4 -d core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.416364.1611309164000000000000.lz4
+  106  gdb glusterfs core.glusterfs.0.f19b17c4d1354237a644e4c67d04f2af.416364.1611309164000000000000
+  107  ps -ef
+  108  ps -ef|grep glus
+  109  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  110  ps -ef|grep glus
+  111  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  112  ps -ef|grep glu
+  113  gcc -v
+  114  yum info gcc
+  115  gcc --version
+  116  gcc -v
+  117  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  118  gdb -p 416344
+  119  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  120  ldd /usr/sbin/glusterfsd 
+  121  vim glusterfs-6.0/libglusterfs/src/events.c 
+  122  vim glusterfs-6.0/libglusterfs/src/events.c 
+  123  find glusterfs-6.0/ -name events.c
+  124  vim glusterfs-6.0/libglusterfs/src/events.c
+  125  cat glusterfs-6.0/libglusterfs/src/events.c
+  126  vim corrouputreturnaddr.cpp
+  127  systemctl status glusterd
+  128  ps -ef|grep glu
+  129  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  130  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  131  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  132  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  133  ps -ef|grep glus
+  134  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  135  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  136  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  137  vim ~/.gdbinit 
+  138  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  139  vim ~/.gdbinit 
+  140  cat ~/.gdbinit 
+  141  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  142  ps -ef|grep glus
+  143  kill -9 419238
+  144  kill -9 419245
+  145  ps -ef|grep glus
+  146  ps -ef|grep glus
+  147  gluster volume info
+  148  gluster volume tier myvol1 status
+  149  gluster volume tier myvol1 info
+  150  gluster volume tier myvol1 status
+  151  gluster volume tier myvol1 info
+  152  gluster volume status
+  153  gluster volume tier myvol1 start
+  154  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  155  gluster volume status
+  156  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  157  gluster volume status
+  158  gluster volume status
+  159  gluster volume info
+  160  cd glusterfs-6.0/
+  161  ls
+  162  vim
+  163  find . -name event-epoll.c
+  164  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  165  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  166  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  167  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  168  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  169  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  170  systemctl start glusterd
+  171  ps -ef|grep glus
+  172  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  173  systemctl stop glusterd
+  174  ps -ef|grep glus
+  175  systemctl start glusterd
+  176  ps -ef|grep glus
+  177  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  178  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  179  vim ./libglusterfs/src/event-epoll.c
+  180  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  181  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  182  gdb -p 422761
+  183  cd rpmbuild/
+  184  ls
+  185  rm -rf RPMS/aarch64/*
+  186  rm -rf RPMS/noarch/glusterfs-resource-agents-6.0-37.1.p1.ky10.noarch.rpm 
+  187  ls
+  188  rm -rf SRPMS/glusterfs-6.0-37.1.p1.ky10.src.rpm 
+  189  ls
+  190  ls BUILD
+  191  ls BUILDROOT/
+  192  cd SPECS/
+  193  ls
+  194  vim glusterfs.spec 
+  195  vim glusterfs.spec 
+  196  vim glusterfs.spec 
+  197  cd /root/glusterfs-6.0/
+  198  ./configure --help
+  199  cd -
+  200  vim glusterfs.spec 
+  201  rpmbuild -ba glusterfs.spec
+  202  uname -a
+  203  vim ../BUILD/glusterfs-6.0/config.log 
+  204  vim glusterfs.spec 
+  205  rpmbuild -ba glusterfs.spec
+  206  vim glusterfs.spec 
+  207  vim glusterfs.spec 
+  208  rpmbuild -ba glusterfs.spec
+  209  vim glusterfs.spec 
+  210  rpmbuild -ba glusterfs.spec
+  211  vim glusterfs.spec 
+  212  rpmbuild -ba glusterfs.spec
+  213  vim glusterfs.spec 
+  214  rpmbuild -ba glusterfs.spec
+  215  vim glusterfs.spec 
+  216  rpmbuild -ba glusterfs.spec
+  217  1rpmbuild -ba glusterfs.spec
+  218  ls /usr/lib/gcc/aarch64-linux-gnu/7.3.0/../../../../lib64/crt1.o
+  219  ls -lah /usr/lib/gcc/aarch64-linux-gnu/7.3.0/../../../../lib64/crt1.o
+  220  vim glusterfs.spec 
+  221  vim glusterfs.spec 
+  222  vim glusterfs.spec 
+  223  rpmbuild -ba glusterfs.spec
+  224  rpmbuild -ba glusterfs.spec
+  225  df -h
+  226  ls
+  227  df -h
+  228  ls
+  229  git clone https://gitee.com/src-openeuler/gcc.git
+  230  ls
+  231  ls
+  232  cd gcc/
+  233  ls
+  234  vim gcc.yaml 
+  235  vim gcc.spec
+  236  pwd
+  237  vim gcc.spec
+  238  pwd
+  239  cat .git/config 
+  240  rpmbuild -ba glusterfs.spec
+  241  vim glusterfs.spec 
+  242  rpmbuild -ba glusterfs.spec
+  243  vim glusterfs.spec 
+  244  ls
+  245  cd -
+  246  ./configure --help|grep static
+  247  ./configure --help
+  248  cd -
+  249  vim glusterfs.spec 
+  250  vim glusterfs.spec 
+  251  vim glusterfs.spec 
+  252  rpmbuild -ba glusterfs.spec --with debug --with asan --with static
+  253  yum search asan
+  254  yum install libasan
+  255  rpmbuild -ba glusterfs.spec --with debug --with asan --with static
+  256  yum install libasan
+  257  vim glusterfs.spec 
+  258  cd -
+  259  ./configure --help|grep static
+  260  vim glusterfs.spec 
+  261  cd -
+  262  vim glusterfs.spec 
+  263  1rpmbuild -ba glusterfs.spec --with debug --with asan --with static
+  264  vim glusterfs.spec 
+  265  cd ../gluster
+  266  cd ../glusterfs-6.0/
+  267  grep -nri relro .
+  268  rpmbuild -ba glusterfs.spec --with debug --with asan --with static
+  269  vim glusterfs.spec 
+  270  grep -nri relro .
+  271  rpmbuild -ba glusterfs.spec --with debug --with asan --with static
+  272  history 
+  273  cp glusterfs.spec ~/glusterfs.specgccstaticdebugasan
+  274  1rsync -av ../ /root/mybuildwithgccnoaslr/
+  275  mkdir ~/mybuildwithgccstaticasandebug
+  276  rsync -av ../ /root/mybuildwithgccstaticasandebug/
+  277  cd ~
+  278  ls
+  279  ps -ef|grep glus
+  280  systemctl stop glusterd
+  281  ls
+  282  ls
+  283  cd specs/
+  284  ls
+  285  ls
+  286  cd ..
+  287  ls
+  288  vim glusterconfig.sh 
+  289  vim glusterconfig.sh 
+  290  vim glusterconfig.sh 
+  291  cd ~/rpmbuild/SPECS/
+  292  ls
+  293  vim ~/glusterconfig.sh 
+  294  cd ~
+  295  ls
+  296  ls rpmbuild/RPMS/aarch64/
+  297  ls -lah rpmbuild/RPMS/aarch64/
+  298  bash glusterconfig.sh 
+  299  cat glusterconfig.sh 
+  300  cd rpmbuild/SPECS/
+  301  yum info libasan
+  302  cd ~/
+  303  systemctl status glusterd
+  304  systemctl start glusterd
+  305  systemctl status glusterd
+  306  git status
+  307  ps -ef|grep glus
+  308  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  309  ps -ef|grep glus
+  310  ps -ef|grep gluster
+  311  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  312  ls
+  313  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  314  systemctl status glusterd
+  315  vim /usr/lib/systemd/system/glusterd.service
+  316  vim /usr/lib/systemd/system/glusterd.service
+  317  cat /etc/sysconfig/glusterd 
+  318  glusterd -h
+  319  glusterd --help
+  320  cat /etc/sysconfig/glusterd 
+  321  vim /usr/lib/systemd/system/glusterd.service
+  322  cat /etc/sysconfig/glusterd 
+  323  vim /usr/lib/systemd/system/glusterd.service
+  324  vim /usr/lib/systemd/system/glusterd.service
+  325  cat /etc/sysconfig/glusterd 
+  326  vim /etc/sysconfig/glusterd 
+  327  systemctl status glusterd
+  328  systemctl restart glusterd
+  329  systemctl status glusterd
+  330  systemctl status glusterd
+  331  vim /etc/sysconfig/glusterd 
+  332  systemctl restart glusterd
+  333  systemctl status glusterd
+  334  ps -ef|grep glus
+  335  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  336  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  337  pwd
+  338  cd ~
+  339  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  340  ls
+  341  ls
+  342  ls KylinV10-SP1/
+  343  git clone https://github.com/gluster/glusterfs.git
+  344  vim ~/.gitconfig 
+  345  vim ~/.gitconfig 
+  346  git clone https://github.com/gluster/glusterfs.git
+  347  cd glusterfs/extras/devel-tools/
+  348  ls
+  349  cat print-backtrace.sh 
+  350  cd ~
+  351  vim bt.txt
+  352  cat glusterfs/extras/devel-tools/print-backtrace.sh |less
+  353  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  354  yum info glusterfs-debuginfo
+  355  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  356  cat glusterfs/extras/devel-tools/print-backtrace.sh |less
+  357  ldd glustefsd
+  358  ldd /usr/sbin/glusterfsd
+  359  vim bt.txt
+  360  cat glusterfs/extras/devel-tools/print-backtrace.sh |less
+  361  vim bt.txt
+  362  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  363  vim bt.txt 
+  364  cat bt.txt 
+  365  cat glusterfs/extras/devel-tools/print-backtrace.sh |less
+  366  vim bt.txt 
+  367  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  368  vim bt.txt 
+  369  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  370  glusterfs/extras/devel-tools/print-backtrace.sh  bt.txt 
+  371  glusterfs/extras/devel-tools/print-backtrace.sh rpmbuild/RPMS/aarch64/glusterfs-debuginfo-6.0-37.1.p1.ky10.aarch64.rpm bt.txt 
+  372  cd rpmbuild/SPECS/
+  373  vim glusterfs.spec 
+  374  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  375  cd rpmbuild/
+  376  cd SPECS/
+  377  rpmbuild -ba glusterfs.spec  --with asan
+  378  vim glusterfs.spec 
+  379  rpmbuild -ba glusterfs.spec  --with asan
+  380  mkdir ~/mybuildwithgcconlyasan
+  381  rsync -av ../ /root/mybuildwithgcconlyasan/
+  382  ls ../RPMS/aarch64/ -laht
+  383  cd ~
+  384  bash glusterconfig.sh 
+  385  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  386  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug
+  387  systemctl status glusterd
+  388  ps -ef|grep glus
+  389  bash glusterconfig.sh 
+  390  systemctl status glusterd
+  391  systemctl start glusterd
+  392  systemctl status glusterd
+  393  ps -ef|grep glus
+  394  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  395  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  396  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  397  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug
+  398  gdb --args /usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug
+  399  gdb --args /usr/sbin/glusterfs -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug 
+  400  rpmbuild -ba glusterfs.spec
+  401  cd rpmbuild/SPECS/
+  402  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  403  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args
+  404  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -4
+  405  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args
+  406  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 4
+  407  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1
+  408  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $1}'
+  409  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $2}'
+  410  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'
+  411  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev
+  412  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F) '{print $1}'
+  413  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F\) '{print $1}'
+  414  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F'(' '{print $1}'
+  415  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F'(' '{print $2}'
+  416  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F')' '{print $1}'
+  417  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F')' '{print $0}'
+  418  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F'\)' '{print $0}'
+  419  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F'\)' '{print $1}'
+  420  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F')' '{print $1}'
+  421  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|awk -F')' '{print $0}'
+  422  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed -i  '1s/^.//'
+  423  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'
+  424  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev
+  425  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  426  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  427  rpmbuild -ba glusterfs.spec
+  428  vim debug.sh
+  429  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  430  cat /var/log/glusterfs/tier/myvol1/tierd.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  431  vim debug.sh
+  432  bash debug.sh 
+  433  vim debug.sh
+  434  vim debug.sh
+  435  bash debug.sh 
+  436  vim debug.sh
+  437  bash debug.sh 
+  438  vim debug.sh
+  439  bash debug.sh 
+  440  vim debug.sh
+  441  bash debug.sh 
+  442  cd ~
+  443  ps -ef|grep glus
+  444  systemctl stop glusterd
+  445  vim glusterconfig.sh 
+  446  cat debug.sh 
+  447  vim glusterconfig.sh 
+  448  bash glusterconfig.sh 
+  449  ps -ef|grep glus
+  450  vim glusterconfig.sh 
+  451  bash debug.sh 
+  452  gdb --args '/usr/sbin/glusterfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' -ex 'break _gf_event' -ex 'run'
+  453  gdb -ex 'run arg1 arg2' -ex bt -ex quit ./program
+  454  gdb -ex 'break _gf_event' -ex 'run  -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/sbin/glusterfsd
+  455  vim ~/.gdbinit 
+  456  gdb -ex 'break _gf_event' -ex 'run  -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/sbin/glusterfsd
+  457  ls
+  458  bash debug.sh 
+  459  vim debug.sh 
+  460  history 
+  461  vim debug.sh 
+  462  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  463  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|awk -F '{print $0}'
+  464  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|awk -F '{print $1}'
+  465  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|awk -F' ' '{print $1}'
+  466  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'
+  467  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|awk -F' ' '{print $0}'
+  468  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|cut -c 21-
+  469  cat /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log |grep args|tail -n 1|awk -F: '{print $8}'|rev|sed 's/^.//'|rev|sed 's/^.//'|cut -c 22-
+  470  vim debug.sh 
+  471  bash debug.sh 
+  472  vim debug.sh 
+  473  bash debug.sh 
+  474  vim debug.sh 
+  475  bash debug.sh 
+  476  gdb -ex 'break _gf_event' -ex 'run -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug' /usr/sbin/glusterfs
+  477  gdb -ex 'break _gf_event' -ex 'run -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug' /usr/sbin/glusterfsd
+  478  gdb -ex 'break _gf_event' -ex 'run -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/sbin/glusterfsd
+  479  vim ~/.gdbinit 
+  480  systemctl status glusterd
+  481  ps -ef|grep glus
+  482  systemctl stop glusterd
+  483  cat glusterconfig.sh 
+  484  yum remove -y --noautoremove glusterfs glusterfs-api glusterfs-api-devel glusterfs-cli glusterfs-client-xlators glusterfs-debuginfo glusterfs-debugsource glusterfs-devel glusterfs-events glusterfs-fuse glusterfs-libs glusterfs-server python3-gluster
+  485  yum search gluster
+  486  yum info glusterfs-devel.aarch64
+  487  yum info glusterfs-devel
+  488  yum info python3-gluster
+  489  cd glusterfs-6.0/
+  490  ls
+  491  ./autogen.sh 
+  492   ./configure --help
+  493   ./configure --enable-asan
+  494  vim ~/.bashrc 
+  495  source ~/.bashrc 
+  496   ./configure --enable-asan  --enable-debug
+  497  make
+  498  ls
+  499  git status
+  500  ls
+  501  grep -nri gluterfs.spec.in
+  502  grep -nri gluterfs.spec.in .
+  503  grep -nri gluterfs.spec .
+  504  grep -nri glusterfs.spec .
+  505  grep -nri glusterfs.spec.in .
+  506  vim Makefile.in 
+  507  vim ./Makefile.in
+  508  ls
+  509  vimdiff glusterfs.spec /root/glusterfs.specgcc
+  510  ./configure --help
+  511  vim glusterfs.spec
+  512  grep -nr sbin glusterfs.spec
+  513  grep -nr bin glusterfs.spec
+  514  ./configure --help
+  515  history 
+  516  ./configure --help
+  517  grep -nr dir glusterfs.spec
+  518  ls
+  519  cat /root/glusterconfig.sh 
+  520  grep -nr glusterd glusterfs.spec
+  521  ./configure --help
+  522  ./configure --help|grep _sharedstatedir
+  523  ./configure --help|grep sharedstatedir
+  524  make install
+  525  which glusterd 
+  526  systemctl status glusterd
+  527  vim /usr/lib/systemd/system/glusterd.service
+  528  vim /usr/lib/systemd/system/glusterd.service
+  529  systemctl daemon-reload'
+  530  systemctl daemon-reload
+  531  systemctl status glusterd
+  532  vim /usr/local/lib/systemd/system/glusterd.service
+  533  systemctl start glusterd
+  534  systemctl status glusterd
+  535  ps -ef|grep glus
+  536  gluster volume info
+  537  cat /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  538  cd /root
+  539  cat debug.sh 
+  540  cp debug.sh debuggs.sh 
+  541  vim debuggs.sh 
+  542  mv debuggs.sh debugsource.sh
+  543  vim debugsource.sh 
+  544  bash debugsource.sh 
+  545  gdb -ex 'break _gf_event' -ex 'run erfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/local/sbin/glusterfsd
+  546  gdb -ex 'break _gf_event' -ex 'run erfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/local/sbin/glusterfsd
+  547  vim debugsource.sh 
+  548  bash debugsource.sh 
+  549  vim debugsource.sh 
+  550  bash debugsource.sh 
+  551  gdb -ex 'break _gf_event' -ex 'run erfsd -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug' /usr/local/sbin/glusterfsd
+  552  gdb -ex 'break _gf_event' -ex 'run -s localhost --volfile-id tierd/myvol1 -p /var/lib/glusterd/tier/myvol1/run/myvol1-tierd.pid -l /var/log/glusterfs/tier/myvol1/tierd.log --brick-name tierd-myvol1 -S /var/run/gluster/12410c620e36e877.socket --xlator-option *dht.use-readdirp=yes --xlator-option *dht.lookup-unhashed=yes --xlator-option *dht.assert-no-child-down=yes --xlator-option *dht.readdir-optimize=on --xlator-option *tier-dht.xattr-name=trusted.tier.tier-dht --process-name tierd --xlator-option *dht.rebalance-cmd=6 --xlator-option *dht.node-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --xlator-option *dht.commit-hash=0 --debug' /usr/local/sbin/glusterfs
+  553  gdb -ex 'break _gf_event' -ex 'run -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick2g-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick2g-subdir.pid -S /var/run/gluster/83615f8c068e2c8d.socket --brick-name /mnt/gbrick2g/subdir -l /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49152 --xlator-option myvol1-server.listen-port=49152 --debug' /usr/local/sbin/glusterfsd
+  554  gdb -ex 'break _gf_event' -ex 'run -s ky-212 --volfile-id myvol1.ky-212.mnt-gbrick-subdir -p /var/run/gluster/vols/myvol1/ky-212-mnt-gbrick-subdir.pid -S /var/run/gluster/08be0089a82479e2.socket --brick-name /mnt/gbrick/subdir -l /var/log/glusterfs/bricks/mnt-gbrick-subdir.log --xlator-option *-posix.glusterd-uuid=5539d192-4b44-498e-8fa3-cc0ab5eba495 --process-name brick --brick-port 49153 --xlator-option myvol1-server.listen-port=49153 --debug' /usr/local/sbin/glusterfsd
+  555  vim glusterfs-6.0/libglusterfs/src/events.c 
+  556  cd glusterfs
+  557  git log -- libglusterfs/src/events.c 
+  558  git log -- libglusterfs/src/events.c 
+  559  cd ../glusterfs-6.0/
+  560  ls
+  561  vim libglusterfs/src/events.c 
+  562  grep -nr '    ret = inet_pton(server.sin_family, host, &server.sin_addr);' libglusterfs/
+  563  cd -
+  564  git log -S     'ret = inet_pton(server.sin_family, host, &server.sin_addr);'
+  565  git show 4324fef9e39d759aac523cbece9df11a22bb0ed9
+  566  git show 4324fef9e39d759aac523cbece9df11a22bb0ed9
+  567  git show 9be14dc3206db3df2de14cda3d93da9aa3159774
+  568  git show 9be14dc3206db3df2de14cda3d93da9aa3159774
+  569  cd -
+  570  vim libglusterfs/src/events.c 
+  571  cd -
+  572  git show 9be14dc3206db3df2de14cda3d93da9aa3159774
+  573  git show 9be14dc3206db3df2de14cda3d93da9aa3159774
+  574  git log
+  575  git diff 91afc5e2f33a77af7f0c3ec7931e148056bda38d..9be14dc3206db3df2de14cda3d93da9aa3159774
+  576  git diff 91afc5e2f33a77af7f0c3ec7931e148056bda38d..9be14dc3206db3df2de14cda3d93da9aa3159774 > Fixinet_ptonaddoverflow.patch
+  577  cd -
+  578  mv ../glusterfs/Fixinet_ptonaddoverflow.patch .
+  579  ls
+  580  vim Fixinet_ptonaddoverflow.patch 
+  581  git status
+  582  git init
+  583  git status
+  584  git add libglusterfs/src/events.c 
+  585  git commit -m 'events"
+  586  git commit -m 'events'
+  587  patch -p1 < Fixinet_ptonaddoverflow.patch 
+  588  git status
+  589  history 
+  590  ps -ef|grep glus
+  591  systemctl status glusterd
+  592  systemctl stop glusterd
+  593  systemctl status glusterd
+  594  ps -ef|grep glus
+  595  git status
+  596  vim Makefile
+  597  lscpu 
+  598  make -j4
+  599  git diff libglusterfs/src/events.c 
+  600  cd -
+  601  cd /root
+  602  cd glusterfs-6.0/
+  603  make install
+  604  bash debugsource.sh 
+  605  systemctl status glusterd
+  606  systemctl start glusterd
+  607  systemctl daemon-reload
+  608  systemctl start glusterd
+  609  systemctl status glusterd
+  610  ps -ef|grep glus
+  611  history |grep gluster
+  612  gluster volume info myvol1
+  613  gluster volume status detail  myvol
+  614  gluster volume status detail  myvol1
+  615  gluster volume status
+  616  gluster info status
+  617  history |grep tier
+  618  gluster volume tier myvol1 status
+  619  gluster volume tier myvol1 info
+  620  gluster volume tier myvol1 info
+  621  ps -ef|grep glus
+  622  cat /var/log/glusterfs/glusterd.log 
+  623  gluster volume info
+  624  ls /var/lib/systemd/coredump/ -laht
+  625  gluster volume info
+  626  systemctl status glusterd
+  627  systemctl status - lglusterd
+  628  systemctl status -l glusterd
+  629  journalctl -e
+  630  systemctl status glusterd
+  631  ls
+  632  systemctl restart glusterd
+  633  systemctl status glusterd
+  634  gluster volume info
+  635  gluster volume status
+  636  gluster volume tier help
+  637  gluster volume tier myvol1 status
+  638  gluster volume tier help
+  639  systemctl status glusterd
+  640  vim /var/log/glusterfs/glusterd.log 
+  641  systemctl status glusterd
+  642  ps -ef|grep glus
+  643  ps -ef|grep glus
+  644  vim /var/log/glusterfs/bricks/mnt-gbrick-subdir.log 
+  645  vim /var/log/glusterfs/bricks/mnt-gbrick2g-subdir.log 
+  646  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  647  vim /var/log/glusterfs/glusterd.log 
+  648  ls -laht /var/log/glusterfs/glusterd.log 
+  649  ls -laht /var/log/glusterfs/
+  650  ls -laht /var/log/glusterfs
+  651  vim /var/log/glusterfs/cli.log 
+  652  journalctl -h
+  653  journalctl 
+  654  ps -ef|grep status
+  655  ps -ef|grep glus
+  656  systemctl restart glusterd
+  657  systemctl stop glusterd
+  658  ps -ef|grep glus
+  659  systemctl stop glusterd
+  660  kill -9 1048367
+  661  kill -9 1048375
+  662  kill -9 1048398
+  663  ps -ef|grep glus
+  664  ps -ef|grep glus
+  665  ps -ef|grep glus
+  666  ps -ef|grep glus
+  667  ps -ef|grep glus
+  668  gluster volume info
+  669  gluster volume tier help
+  670  gluster volume tier muyvol1 status
+  671  gluster volume tier myvol1 status
+  672  gluster volume tier muyvol1 status
+  673  gluster volume tier muyvol1 start
+  674  gluster volume tier muyvol1 status
+  675  gluster volume tier myvol1 status
+  676  /usr/local/sbin/glusterd -p /var/run/glusterd.pid --log-level INFO --debug
+  677  status
+  678  cd glusterfs-6.0/
+  679  cat /root/glusterconfig.sh 
+  680  mkdir ~/backupconfig
+  681  rsync -av /var/lib/glusterd ~/backupconfig/
+  682  git status
+  683  make --help
+  684  make clean
+  685  ps -ef|grep glus
+  686  kill -9 1049613
+  687  kill -9 1049620
+  688  ps -ef|grep glus
+  689  git diff
+  690   ./configure --enable-asan  --enable-debug
+  691  make -j4
+  692  df -h
+  693  history 
+  694  make install
+  695  make uninstall
+  696  cd /root/rpmbuild/SPECS/
+  697  vim glusterfs.spec 
+  698  vim glusterfs.spec 
+  699  cd ~/rpmbuild/BUILD/
+  700  ls
+  701  mkdir /root/glusterfs6.0orig
+  702  rsync -av glusterfs-6.0/ /root/glusterfs6.0orig/
+  703  cp /root/glusterfs-6.0/libglusterfs/src/events.c glusterfs-6.0/libglusterfs/src/events.c 
+  704  rsync -av /root/glusterfs6.0orig .
+  705  diff -Npru glusterfs6.0orig glusterfs-6.0 > ipv4addroverflow.patch
+  706  vim ipv4addroverflow.patch 
+  707  cp ipv4addroverflow.patch ../SOURCES/
+  708  cd ../SPECS/
+  709  vim glusterfs.spec 
+  710  vim glusterfs.spec 
+  711  vim glusterfs.spec 
+  712  ls ../SOURCES/
+  713  vim glusterfs.spec 
+  714  vim glusterfs.spec 
+  715  vim glusterfs.spec 
+  716  vimdiff glusterfs.spec /root/glusterfs.specgcc
+  717  rpmbuild -ba glusterfs.spec
+  718  cd /root
+  719  ls
+  720  vim glusterconfig.sh 
+  721  ls rpmbuild/RPMS/aarch64/
+  722  ls rpmbuild/RPMS/aarch64/ -laht
+  723  ps -ef|grep glus
+  724  bash glusterconfig.sh 
+  725  ps -ef|grep glus
+  726  gluster volume info
+  727  gluster volume status
+  728  gluster volume tier myvol1 status
+  729  gluster volume tier
+  730  gluster volume tier myvol1 status
+  731  gluster volume tier myvol1 top
+  732  gluster volume tier myvol1 stop
+  733  gluster volume tier myvol1 status
+  734  gluster volume tier myvol1 status
+  735  gluster volume tier myvol1 status
+  736  gluster volume tier myvol1 status
+  737  gluster volume tier myvol1 status
+  738  gluster volume tier myvol1 status
+  739  ps -ef|grep glus
+  740  gluster volume tier myvol1 status
+  741  gluster volume tier myvol1 status
+  742  gluster volume tier myvol1
+  743  gluster volume tier myvol1 start
+  744  gluster volume tier myvol1 status
+  745  gluster volume tier myvol1 stop
+  746  gluster volume tier myvol1 status
+  747  gluster volume tier myvol1 status
+  748  gluster volume tier myvol1 status
+  749  git status
+  750  gluster volume tier myvol1 status
+  751  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  752  gluster volume tier myvol1 status
+  753  gluster volume tier myvol1 status
+  754  gluster volume tier myvol1
+  755  gluster volume tier myvol1 status
+  756  gluster volume tier myvol1 status
+  757  gluster volume tier myvol1 status
+  758  gluster volume tier myvol1 stop
+  759  gluster volume tier myvol1 status
+  760  gluster volume info
+  761  gluster volume status
+  762  gluster volume status detail
+  763  gluster volume status
+  764  gluster volume status help
+  765  gluster volume help
+  766  gluster volumes status myvol1 tierd
+  767  gluster volume status myvol1 tierd
+  768  gluster volume status myvol1 detail
+  769  gluster volume status myvol1 tierd
+  770  gluster volume tier myvol1 status
+  771  ls -laht /var/log/glusterfs/
+  772  gluster volume tier myvol1 status
+  773  vim /var/log/glusterfs/cli.log 
+  774  vim /var/log/glusterfs/tier/myvol1/tierd.log 
+  775  gluster volume tier myvol1 status
+  776  gluster volume tier myvol1 status
+  777  pwd
+  778  vim /var/log/glusterfs/glusterd.log 
+  779  df -h
+  780  xfs_prog /dev/loop0
+  781  which xfs_prog
+  782  gluster volume info
+  783  xfs_info /dev/loop0
+  784  xfs_info /mnt/gbrick
+  785  xfs_info /mnt/gbrick2g/
+  786  gluster volume myvol1 status detail
+  787  gluster volume status myvol1 detail
+  788  which xfs_info
+  789  vim /usr/sbin/xfs_info 
+  790  vim /usr/sbin/xfs_info 
+  791  df -h
+  792  1mount -t glusterfs ky-212:myvol1 /mnt/glusterfs
+  793  mkdir /mnt/tier
+  794  1mount -t glusterfs ky-212:myvol1 /mnt/tier
+  795  mount -t glusterfs ky-212:myvol1 /mnt/tier
+  796  df -h
+  797  df -h
+  798  ls /mnt/tier
+  799  cp glusterconfig.sh /mnt/tier/
+  800  ls /mnt/gbrick
+  801  ls /mnt/gbrick/subdir/
+  802  gluster volume status
+  803  cat /var/log/glusterfs/tier/myvol1/tierd.log 
+  804  cd rpmbuild/
+  805  ls
+  806  cd SPECS/
+  807  ls
+  808  vim glusterfs.spec 
+  809  cp glusterfs.spec /root/glusterfs.specgccgccwithpatch
+  810  vim /root/glusterfs.specgcc
+  811  vim glusterfs.spec 
+  812  vimdiff glusterfs.spec /root/glusterfs.specgcc
+  813  vim /root/glusterfs-6.0/glusterfs.spec
+  814  vim /root/glusterfs.specgcc
+  815  vim glusterfs.spec 
+  816  git diff
+  817  vim glusterfs.spec /root/glusterfs.specgcc
+  818  vimdiff glusterfs.spec /root/glusterfs.specgcc
+  819  vim glusterfs.spec 
+  820  vimdiff glusterfs.spec /root/glusterfs.specgcc
+  821  vim glusterfs.spec 
+  822  rpmbuild -ba glusterfs.spec
+  823  ls
+  824  cp glusterfs.spec /root/glusterfs.specgccfinal
+  825  cd ..
+  826  ls
+  827  ls BUILD
+  828  ls BUILDROOT/
+  829  ls RPMS/
+  830  ls RPMS/aarch64/
+  831  ls RPMS/aarch64/ -laht
+  832  ls SRPMS/
+  833  ls SRPMS/ -lhat
+  834  pwd
+  835  pwd
+  836  ls
+  837  pwd
+  838  pwd
+  839  df -h
+  840  mkdir /root/fixed
+  841  rsync --av . /root/fixed/
+  842  rsync -av . /root/fixed/
+  843  history
+  844  ls /root/fixed/
+  845  ip addr
+  846  cd /root
+  847  1bash glusterconfig.sh 
+  848  cat glusterconfig.sh 
+  849  bash glusterconfig.sh 
+  850  ps -ef|grep glus
+  851  kill -9 1207135
+  852  kill -9 1207142
+  853  kill -9 1207155
+  854  kill -9 1208752
+  855  systemctl status glusterd
+  856  bash glusterconfig.sh 
+  857  systemctl status glusterd
+  858  gluster volume tier myvol status
+  859  gluster volume tier myvol1 status
+  860  df -h
+  861  umount /mnt/tier
+  862  df -h
+  863  ls 
+  864  vim glusterconfig.sh 
+  865  vim glusterconfig.sh 
+  866  ls mybuildwithgcc
+  867  ls mybuildwithgcc/RPMS/
+  868  ls mybuildwithgcc/RPMS/aarch64/
+  869  ip a | grep inet6
+  870  nmcli -h
+  871  nmcli g
+  872  nmcli connection modify interface ipv6.method ignore
+  873  nmcli connection 
+  874  nmcli connection help 
+  875  nmcli connection show
+  876  nmcli connection modify help
+  877  nmcli connection show
+  878   ip a | grep inet6
+  879  vim /etc/default/grub
+  880   ls -lh /etc/grub*.cfg
+  881  1grub2-mkconfig -o 
+  882  ls ../boot/efi/EFI/kylin/grub.cfg
+  883  ls /boot/efi/EFI/kylin/grub.cfg
+  884  grub2-mkconfig -o /boot/efi/EFI/kylin/grub.cfg
+  885  ls /boot/grub2/
+  886  history 
+  887  reboot
+  888  ip addr
+  889  history 
+  890  ip a | grep inet6
+  891  systemctl status glusterd
+  892  ps -ef|grep glus
+  893  systemctl restart glusterd
+  894  ps -ef|grep glus
+  895  gluster volume info
+  896  df -h
+  897  history |grep mount
+  898  ls
+  899  ls /mnt/
+  900  history |grep alloc
+  901  ls /dev/loop0
+  902  ls /dev/loop1
+  903  gluster volume stop myvol1
+  904  gluster volume info
+  905  ls
+  906  vim history 
+  907  cat history 
+  908  mount /mnt/brick2g /mnt/gbrick2g/
+  909  mount /mnt/brick /mnt/gbrick
+  910  df -h
+  911  mount
+  912  cat /etc/fstab 
+  913  vim /etc/fstab 
+  914  df -h
+  915  umount /mnt/gbrick
+  916  umount /mnt/gbrick2g/
+  917  mount -a
+  918  df -h
+  919  ps -ef|grep glus
+  920  gluster volume start myvol1
+  921  ps -ef|grep glus
+  922  systemctl status glusterd
+  923  systemctl stop glusterd
+  924  ps -ef|grep glus
+  925  ps -ef|grep glus
+  926  systemctl daemon-reload
+  927  systemctl stop glusterd
+  928  systemctl status glusterd
+  929  systemctl status glusterd
+  930  ps -ef|grep glus
+  931  systemctl stop glusterd
+  932  systemctl restart glusterd
+  933  ps -ef|grep glus
+  934  ps -ef|grep glus
+  935  ps -ef|grep glus
+  936  systemctl stop glusterd
+  937  ps -ef|grep glus
+  938  kill -9 1773  2136  8467 8487 8521
+  939  vim glusterconfig.sh 
+  940  vim glusterconfig.sh 
+  941  bash glusterconfig.sh 
+  942  gluster volume info
+  943  gluster volume status
+  944  gluster volume tier volume info
+  945  gluster volume tier volume status
+  946  gluster volume tier myvol1 status
+  947  ps -ef|grep glus
+  948  gluster volume tier myvol1 start
+  949  gluster volume tier myvol1 status
+  950  gluster volume tier myvol1 stop
+  951  gluster volume tier myvol1 status
+  952  gluster volume tier myvol1 status
+  953  gluster volume tier myvol1 status
+  954  gluster volume tier myvol1 status
+  955  gluster volume tier myvol1 status
+  956  gluster volume tier myvol1 status
+  957  gluster volume tier myvol1 status
+  958  gluster volume tier myvol1 status
+  959  gluster volume tier myvol1 stop
+  960  gluster volume tier myvol1 status
+  961  ps -ef|grep glus
+  962  gluster volume tier myvol1 status
+  963  gluster volume tier myvol1 status
+  964  systemctl status glusterd
+  965  ps -ef|grep glus
+  966  systemctl stop glusterd
+  967  ps -ef|grep glus
+  968  systemctl restart glusterd
+  969  ps -ef|grep glus
+  970  ps -ef|grep glus
+  971  ps -ef|grep glus
+  972  history 
+  973  cat glusterconfig.sh
+  974  ls -laht
+  975  ls mybuildwithgcc/SOURCES/
+  976  cat glusterconfig.sh 
+  977  git status
+  978  vim rpmbuild/BUILD/glusterfs6.0orig/libglusterfs/src/events.c 
+  979  git status
+  980  ls
+  981  cp debug.sh specs/
+  982  cp debugsource.sh specs/
+  983  cp glusterconfig.sh specs/
+  984  cp glusterfs.spec* specs/
+  985  ls specs/
+  986  cd glusterfs
+  987  git log -S     'ret = inet_pton(server.sin_family, host, &server.sin_addr);'
+  988  cd /root/specs/
+  989  git status
+  990  cat /etc/kylin-release 
+  991  uname -a
+  992  history |grep rpm |grep eva
+  993  grep -nri eva ~/history 
+  994  rpm --eval %{?rhel}
+  995  yum info gcc
+  996  yum info glibc
+  997  git log -S     'ret = inet_pton(server.sin_family, host, &server.sin_addr);'
+  998  git log -S     'ret = inet_pton(server.sin_family, host, &server.sin_addr);'
+  999  cd /root/glusterfs
+ 1000  git log -S     'ret = inet_pton(server.sin_family, host, &server.sin_addr);'
+ 1001  dmesg
+ 1002  dmesg
+ 1003  ls
+ 1004  ls -lah
+ 1005  cd specs/
+ 1006  ls
+ 1007  git status
+ 1008  ls
+ 1009  cat .git/config 
+ 1010  git remote add origin https://github.com/inevity/misc.git
+ 1011  git branch -a
+ 1012  git branch -M main
+ 1013  git branch -a
+ 1014  git status
+ 1015  git add debug.sh 
+ 1016  git add debugsource.sh 
+ 1017  git add glusterconfig.sh 
+ 1018  git add glusterfs.spec*
+ 1019  git status
+ 1020  cat /root/.gitconfig 
+ 1021  cp /root/.gdbinit gdbinit
+ 1022  git add gdbinit 
+ 1023  ls /root
+ 1024  cp /root/history .
+ 1025  history >>history 

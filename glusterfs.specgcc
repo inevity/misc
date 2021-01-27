@@ -262,7 +262,7 @@ BuildRequires:    libasan
 BuildRequires:    libtsan
 %endif
 BuildRequires:    bison flex
-BuildRequires:    clang make libtool
+BuildRequires:    gcc make libtool
 BuildRequires:    ncurses-devel readline-devel
 BuildRequires:    libxml2-devel openssl-devel
 BuildRequires:    libaio-devel libacl-devel
@@ -600,7 +600,7 @@ Requires:         %{name}-fuse%{?_isa} = %{version}-%{release}
 Requires:         %{name}-server%{?_isa} = %{version}-%{release}
 ## thin provisioning support
 Requires:         lvm2 >= 2.02.89
-Requires:         perl(App::Prove) perl(Test::Harness) clang util-linux-ng
+Requires:         perl(App::Prove) perl(Test::Harness) gcc util-linux-ng
 Requires:         python%{_pythonver}
 Requires:         attr dbench file git libacl-devel net-tools
 Requires:         nfs-utils xfsprogs yajl psmisc bc
@@ -753,8 +753,8 @@ echo "fixing python shebangs..."
 # In RHEL7 few hardening flags are available by default, however the RELRO
 # default behaviour is partial, convert to full
 %if ( 0%{?rhel} && 0%{?rhel} >= 7 )
-export CC="clang"
-export CXX="clang++"
+#export CC="clang"
+#export CXX="clang++"
 LDFLAGS="$RPM_LD_FLAGS -Wl,-z,relro,-z,now"
 export LDFLAGS
 %else

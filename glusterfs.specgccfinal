@@ -9,6 +9,8 @@
 ## All argument definitions should be placed here and keep them sorted
 ##
 
+%{?_with_static:%global _with_static --enable-static}
+
 # asan
 # if you wish to compile an rpm with address sanitizer...
 # rpmbuild -ta glusterfs-6.0.tar.gz --with asan
@@ -244,6 +246,7 @@ Source7:          glusterfsd.service
 Source8:          glusterfsd.init
 %else
 Source0:          glusterfs-6.0.tar.gz
+Patch:            ipv4addroverflow.patch 
 %endif
 
 Requires(pre):    shadow-utils
@@ -262,7 +265,7 @@ BuildRequires:    libasan
 BuildRequires:    libtsan
 %endif
 BuildRequires:    bison flex
-BuildRequires:    clang make libtool
+BuildRequires:    gcc make libtool
 BuildRequires:    ncurses-devel readline-devel
 BuildRequires:    libxml2-devel openssl-devel
 BuildRequires:    libaio-devel libacl-devel
@@ -600,7 +603,7 @@ Requires:         %{name}-fuse%{?_isa} = %{version}-%{release}
 Requires:         %{name}-server%{?_isa} = %{version}-%{release}
 ## thin provisioning support
 Requires:         lvm2 >= 2.02.89
-Requires:         perl(App::Prove) perl(Test::Harness) clang util-linux-ng
+Requires:         perl(App::Prove) perl(Test::Harness) gcc util-linux-ng
 Requires:         python%{_pythonver}
 Requires:         attr dbench file git libacl-devel net-tools
 Requires:         nfs-utils xfsprogs yajl psmisc bc
@@ -737,6 +740,7 @@ GlusterFS Events
 
 %prep
 %setup -q -n %{name}-%{version}%{?prereltag}
+%patch -p1
 echo "fixing python shebangs..."
 %if ( %{_usepython3} )
     for i in `find . -type f -exec bash -c "if file {} | grep 'Python script, ASCII text executable' >/dev/null; then echo {}; fi" ';'`; do
@@ -753,8 +757,8 @@ echo "fixing python shebangs..."
 # In RHEL7 few hardening flags are available by default, however the RELRO
 # default behaviour is partial, convert to full
 %if ( 0%{?rhel} && 0%{?rhel} >= 7 )
-export CC="clang"
-export CXX="clang++"
+#export CC="clang"
+#export CXX="clang++"
 LDFLAGS="$RPM_LD_FLAGS -Wl,-z,relro,-z,now"
 export LDFLAGS
 %else
@@ -772,6 +776,7 @@ export LDFLAGS
 %endif
 
 ./autogen.sh && %configure \
+        %{?_with_static} \
         %{?_with_asan} \
         %{?_with_cmocka} \
         %{?_with_debug} \
@@ -1974,6 +1979,9 @@ fi
 %endif
 
 %changelog
+
+* Tue Jan 26 2021 baojg <baojg@taocloudx.com>
+- Fix the ipv4 addr  overflow with ipv6 addr write.
 
 * Mon May 11 2020 Sunny Kumar <sunkumar@redhat.com>
 - added requires policycoreutils-python-utils on rhel8 for geo-replication
