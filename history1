@@ -1,0 +1,1000 @@
+  258  vi test31
+  259  df -h
+  260  mount -t nfs 10.10.205.42:/nfs/share1 /mnt/nfs/
+  261  mount -t nfs 10.10.205.43:/nfs/share1 /mnt/nfs/
+  262  ping 10.10.205.42
+  263  ip a
+  264  ping 10.10.205.42
+  265  ping 10.10.205.41
+  266  ping 10.10.205.42
+  267  ping 10.10.205.43
+  268  ping 10.10.205.42
+  269  df -h
+  270  cd /mnt/
+  271  ls
+  272  cd posix/
+  273  ls
+  274  systemctl status smb
+  275  smb
+  276  find smb
+  277  which smb
+  278  df -hT
+  279  mount -t glusterfs 192.168.205.42:test1 /mnt/posix/
+  280  df -hT
+  281  dd if=/dev/zero of=/mnt/posix/test1 bs=1M count=20000
+  282  dd if=/dev/zero of=/mnt/posix/test1 bs=1M count=200000
+  283  ping 10.10.205.40
+  284  ping 10.10.205.41
+  285  df -h
+  286  umount /mnt/posix/
+  287  df -h
+  288  mount -t nfs 10.10.205.40:/test /mnt/nfs/
+  289  mount -t nfs 10.10.205.41:/test /mnt/nfs/
+  290  df -h
+  291  cd vdbench50406/
+  292  ls
+  293  cat test33
+  294  vi test33
+  295  cd /mnt/nfs/
+  296  ;s
+  297  ls
+  298  cd vdbench50406/
+  299  cd
+  300  cd vdbench50406/
+  301  vi test33
+  302  ./vdbench -f test33
+  303  df -h
+  304  umount /mnt/nfs/
+  305  df -h
+  306  showmount -e 172.16.205.51
+  307  mount -t nfs 10.10.205.52:/test/ /mnt/nfs
+  308  mount -t nfs 10.10.205.52:/ESking/ /mnt/nfs
+  309  df -h
+  310  mount -t glusterfs 192.168.205.53:ESking /mnt/posix/
+  311  df -h
+  312  df -hT
+  313  dd if=/dev/zero of=/mnt/nfs/test01 bs=1M count=100000
+  314  cd /mnt/nfs/
+  315  ls
+  316  rm -rf test01
+  317  rm -rf test02
+  318  ls
+  319  mkdir a
+  320  mkdir b
+  321  mkdir c
+  322  cd
+  323  umount /mnt/nfs/
+  324  mount -t nfs 10.10.205.52:/nfs/share1 /mnt/nfs
+  325  df -hT
+  326  cd /mnt/nfs/
+  327  ls
+  328  dd if=/dev/zero of=/mnt/nfs/test01 bs=4k count=200000
+  329  dd if=/dev/zero of=/mnt/nfs/test01 bs=1M count=2000
+  330  ls
+  331  c
+  332  cd
+  333  umount /mnt/nfs
+  334  df -h
+  335  dd if=/dev/zero of=/mnt/posix/test02 bs=1M count=100000
+  336  cd /mnt/
+  337  ls
+  338  cd posix/
+  339  ls
+  340  df -h
+  341  ls
+  342  mkdir d
+  343  mkdir e
+  344  mkdir f
+  345  ls
+  346  dd if=/dev/zero of=/mnt/posix/test02 bs=1M count=2000
+  347  ls
+  348  cd
+  349  mount -t nfs 10.10.205.52:/ESking /mnt/nfs
+  350  df -hT
+  351  cd /mnt/nfs/
+  352  ls
+  353  mkdir [1;2;3]
+  354  ls
+  355  rm -rf \[1/
+  356  ls
+  357  mkdir a
+  358  mkdir b
+  359  mkdir c
+  360  ls
+  361  cd
+  362  df -h
+  363  df -hT
+  364  umount /mnt/nfs
+  365  df -h
+  366  umount /mnt/posix/
+  367  ls
+  368  df -h
+  369  showmount -e 10.10.205.41
+  370  mount -t nfs 10.10.205.41:/test
+  371  mount -t nfs 10.10.205.41:test
+  372  ping 10.10.205.41
+  373  clear
+  374  df -g
+  375  df -h
+  376  mount -t nfs 10.10.205.41:/test /mnt/nfs/
+  377  df -h
+  378  cd vdbench50406/
+  379  ls
+  380  vi test33
+  381  mount -t glusterfs 192.168.205.41:test /mnt/posix/
+  382  df -hT
+  383  ./vdbench -f test33
+  384  ls
+  385  cd output/
+  386  ls
+  387  cat totals.html 
+  388  df -h
+  389  cd /mnt/
+  390  ls
+  391  cd nfs/
+  392  ls
+  393  cat 产品信息.txt 
+  394  df -h
+  395  cd vdbench50406/
+  396  ls
+  397  cd /mnt/nfs/
+  398  ls
+  399  rm -rf test01/
+  400  df -h
+  401  cd .
+  402  cd ..
+  403  cd /root/vdbench50406/
+  404  ls
+  405  vi test3
+  406  vi test33
+  407  vi test31
+  408  vi test33
+  409  ./vdbench -f test33
+  410  ls
+  411  cd output/
+  412  ls
+  413  cat totals.html 
+  414  cd
+  415  cd /mnt/nfs/
+  416  ls
+  417  rm -rf test01/
+  418  lsblk
+  419  grep vmx /proc/cpuinfo
+  420  lsmod | grep kvm
+  421  ll /dev/kvm
+  422  yum -y install bridge-utils
+  423  systemctl restart network
+  424  cd /etc/sysconfig/network-scripts/
+  425  ls
+  426  ip a
+  427  cp ifcfg-eno1 ifcfg-br0
+  428  cat ifcfg-br0
+  429  vim  ifcfg-br0
+  430  yum -y install vim
+  431  vim  ifcfg-br0
+  432  vim ifcfg-eno1
+  433  ip a
+  434  systemctl restart network
+  435  ifconfig |head -20
+  436  yum -y install libcanberra-gtk2 qemu-kvm.x86_64 qemu-kvm-tools.x86_64 
+  437  yum -y install libvirt.x86_64 libvirt-cim.x86_64 libvirt-client.x86_64 
+  438  yum -y install libvirt-java.noarch  libvirt-python.x86_64 libiscsi-1.7.0-5.el6.x86_64  dbus-devel  virt-clone tunctl virt-manager libvirt libvirt-python python-virtinst
+  439  mkdir /home/data/
+  440  ls /home/data
+  441  virsh
+  442  yum -y install kvm
+  443  yum -y install qemu-kvm python-virtinst libvirt libvirt-python  libguestfs-tools bridge-utils virt-install
+  444  yum -y install kvm
+  445  yum -y install libcanberra-gtk2 qemu-kvm.x86_64 qemu-kvm-tools.x86_64  libvirt.x86_64 libvirt-cim.x86_64 libvirt-client.x86_64 
+  446  yum -y install libvirt-java.noarch  libvirt-python.x86_64 libiscsi-1.7.0-5.el6.x86_64  dbus-devel  virt-clone tunctl virt-manager libvirt libvirt-python python-virtinst
+  447  systemctl start acpid.service
+  448  systemctl status libvirtd
+  449  systemctl is-enabled libvirtd
+  450  systemctl start  libvirtd
+  451  systemctl status libvirtd
+  452  systemctl start acpid.service
+  453  systemctl enable acpid.service
+  454  systemctl start libvirtd.service
+  455  systemctl enable libvirtd.service
+  456  virsh
+  457  lsblk
+  458  mkdir /sdb
+  459  mount /dev/sdb /sdb
+  460  mkfs.ext4 /dev/sdb
+  461  lsblk
+  462  mount /dev/sdb /sdb
+  463  vim /etc/fstab 
+  464  virsh 
+  465  virsh console wc1
+  466  virsh start wc1
+  467  virsh console wc1
+  468  cd /etc/sysconfig/network-scripts/
+  469  ls
+  470  ip a
+  471  ls
+  472  vim ifcfg-eno1
+  473  vim ifcfg-br0 
+  474  systemctl restart network
+  475  ip a
+  476  virsh 
+  477  ping 172.18.202.165
+  478  history
+  479  cd /etc/sysconfig/network-scripts
+  480  ls
+  481  vim eno1
+  482  vim ifcfg-eno1
+  483  vim ifcfg-br0
+  484  ls
+  485  cat /etc/sysconfig/network-scripts/ifcfg-br0
+  486  cat /etc/sysconfig/network-scripts/ifcfg-eno1
+  487  brctl show
+  488  ip a
+  489  ip a
+  490  ifdown ens1f0
+  491  ip a
+  492  ls
+  493  cd /etc/
+  494  ls
+  495  brctl show
+  496  ifconfig | head -20
+  497  ping www.baidu.com
+  498  cd sysconfig/network-scripts/
+  499  ls
+  500  vim ifcfg-eno1
+  501  systemctl restart network
+  502  ip a
+  503  ping baidu.com
+  504  free
+  505  ip a
+  506  free
+  507  lscpu
+  508  lsblk
+  509  ip a
+  510  reboot
+  511  virsh
+  512  lsblk
+  513  df -h
+  514  virsh 
+  515  ls
+  516  cd /etc/sysconfig/network-scripts
+  517  ls
+  518  vim ifcfg-br0
+  519  vim ifcfg-ens1f0
+  520  systemctl restart network
+  521  ip a
+  522  cd /etc/sysconfig/network-scripts/
+  523  ls
+  524  vim ifcfg-eno1
+  525  vim ifcfg-br0
+  526  v
+  527  ip a
+  528  virsh list --all
+  529  shutdown wc1
+  530  restart  wc1
+  531  virsh list --all
+  532  free
+  533  ip a
+  534  virsh list --all
+  535  cd /etc/sysconfig/network-scripts
+  536  ls
+  537  vim ens1f0
+  538  vim ifcfg-ens1f0
+  539  ip a
+  540  ping
+  541  ping 172.16.202.165
+  542  ls
+  543  rm -rf ifcfg-br0
+  544  ls
+  545  vim ifcfg-ens1f0
+  546  systemctl restart network
+  547  ip a
+  548  ip a 
+  549  ip a | less 
+  550  ping baidu.com
+  551  cd /etc/sysconfig/network-scripts/
+  552  ls
+  553  vim ifcfg-eno1
+  554  systemctl restart network 
+  555  systemctl restart network
+  556  ip a
+  557  reboot
+  558  ls
+  559  virsh
+  560  cd /etc/sysconfig/network-scripts/
+  561  ls
+  562  ip a
+  563  ls
+  564  vim ifcfg-br0
+  565  vim ifcfg-ens1f0
+  566  ls
+  567  vim ifcfg-br0
+  568  pwd
+  569  vim ifcfg-eno1
+  570  ssh 172.16.202.165
+  571  ip a
+  572  cd  /etc/sysconfig/network-scripts/
+  573  ls
+  574  vim ifcfg-eno1
+  575  systemctl restart network
+  576  ip a
+  577  ping baidu.com
+  578  reboot
+  579  ip a
+  580  systemctl status libvirtd
+  581  virsh
+  582  yum -y install openssh
+  583  systemctl status libvirtd
+  584  systemctl restart libvirtd
+  585  free
+  586  lsblk
+  587  df -h
+  588  ls
+  589  df -hT
+  590  lsblk 
+  591  mkfs.ext4 /dev/sdc
+  592  mount /dev/sdc /sdc
+  593  mkdir /sdc
+  594  mount /dev/sdc /sdc
+  595  vim /etc/fstab 
+  596  cd /sdb/
+  597  ls
+  598  cd
+  599  cd /home/
+  600  ls
+  601  cd data/
+  602  ls
+  603  df -hT
+  604  find / -name *.qcow2
+  605  ip a
+  606  ls
+  607  pwd
+  608  cd 
+  609  ls
+  610  df -hT
+  611  ls
+  612  df -hT
+  613  cd /dev/sdb 
+  614  cd /sdb
+  615  ls
+  616  rm -rf c1-boot.img 
+  617  ls
+  618  cd
+  619  df -hT
+  620  cd /sdc
+  621  ls
+  622  virsh
+  623  virsh list --all
+  624  ls
+  625  scp auto-ssh.sh  clean.sh  host_ip.txt cpu.py suzaku-0.8.2-el7.x86_64.rpm suzaku-pkg.zip suzaku.yml root@172.18.175.11:/root/
+  626  ls
+  627  ll
+  628  lsblk
+  629  cd /sdb
+  630  ls
+  631  cp f1-sda.img f2-sda.img 
+  632  ls
+  633  rm f2-sda.img 
+  634  touch 1 
+  635  ls
+  636  cp 1 2 ; cp 1 3 ; cp 1 4
+  637  ls
+  638  vim 1
+  639  cp 1 2 ; cp 1 3 ; cp 1 4
+  640  ls
+  641  rm 1
+  642  rm 2
+  643  rm 3
+  644  rm 4
+  645  yum -y inistall screen
+  646  ls
+  647  cp f1-sda.img f2-sda.img ; cp f1-sda.img f3-sda.img ; cp f1-sda.img f4-sda.img ; cp f1-sda.img f5-sda.img 
+  648  ls
+  649  rm -rf f1-sda.img 
+  650  rm -rf f2-sda.img 
+  651  rm -rf f3-sda.img 
+  652  ls
+  653  cp f5-sda.img f1-sda.img ;  cp f5-sda.img f2-sda.img ; cp f5-sda.img f3-sda.img ; cp f5-sda.img f4-sda.img 
+  654  ls
+  655  ll
+  656  ip a
+  657  cd /sdb
+  658  ls
+  659  ll
+  660  lsblk
+  661  ls
+  662  ll
+  663  lsblk
+  664  ping 172.16.160.132
+  665  ls
+  666  scp auto-ssh.sh clean.sh cpu.py host_ip.txt suzaku.yml suzaku-pkg.zip root@172.16.160.132:/root/
+  667  ls
+  668  unzip suzaku-pkg.zip 
+  669  unzip /root/suzaku-pkg.zip 
+  670  unzip /root/suzaku-pkg.zip /root/
+  671  /opt/MegaRAID/MegaCli/MegaCli64 -PDList -aAll -NoLog
+  672  /opt/MegaRAID/MegaCli/MegaCli64 -CfgLdAdd -r0 [252:5] WB Direct -a0
+  673  lsblk 
+  674  /opt/MegaRAID/MegaCli/MegaCli64 -PDList -aAll -NoLog
+  675  lsblk 
+  676  /opt/MegaRAID/MegaCli/MegaCli64 -CfgLdAdd -r0 [252:1] WB Direct -a0
+  677  lsblk 
+  678  /opt/MegaRAID/MegaCli/MegaCli64 -LdPdInfo -aAll -NoLog
+  679  ip a
+  680  /opt/MegaRAID/MegaCli/MegaCli64 -CfgLdAdd -r0 [252:5] WB Direct -a0
+  681  echo $?
+  682  exit
+  683  cd /opt/MegaRAID/
+  684  ls
+  685  cd Mega
+  686  ls
+  687  cd MegaCli/
+  688  ls
+  689  ./MegaCli64 
+  690  /opt/MegaRAID/MegaCli/MegaCli64 -cfgdsply -aall   
+  691  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Enclosure Device ID"
+  692  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Slot Number"
+  693  lsblk
+  694  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Virtual Drive"\
+  695  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Virtual Drive"
+  696  i pa
+  697  ip a
+  698  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Virtual Drive"
+  699  /opt/MegaRAID/MegaCli/MegaCli64 -CfgDsply -a0 | grep "Slot Number"
+  700  exit
+  701  virsh list
+  702  virsh list --list
+  703  virsh list --all
+  704  virsh start node11
+  705  virsh start node12
+  706  virsh start node13
+  707  virsh start node14
+  708  virsh start node15
+  709  lsblk
+  710  ls
+  711  lsblk
+  712  ssh root@172.16.175.40
+  713  cpuls
+  714  lscpu
+  715  ls
+  716  lsblk
+  717  cd /sdb
+  718  ls
+  719  ssh root@172.16.175.40
+  720  lsblk
+  721  cd /sdb
+  722  ls
+  723  pwd
+  724  df
+  725  lscpu 
+  726   top
+  727  lscpu 
+  728  ls
+  729  top
+  730  ps aux | grep qeum
+  731  ps aux | grep qemu
+  732  ps aux | grep qemu | grep cow
+  733  df
+  734  ps aux | grep qemu | grep device
+  735  ps aux | grep qemu | grep raw
+  736  ps aux | grep qemu | grep "file="
+  737  /sdc/f1-sdb.img,/sdb/f1-sda.img,/sdc/f1-sdc.img,sdb/f2-sda.img,sdc/f2-sdb.img,/sdc/f2-sdc.img,qemu     22413 92.2 14.6 12043476 9609632 ?    Sl   2月28 7236:07 /usr/libexec/qemu-kvm -name node13 -S -machine pc-i440fx-rhel7.0.0,accel=kvm,usb=off,dump-guest-core=off -cpu Nehalem-IBRS -m 10240 -realtime mlock=off -smp 2,sockets=2,cores=1,threads=1 -uuid 2f4fd6f9-23a0-4ef4-925d-dec230b3d77e -no-user-config -nodefaults -chardev socket,id=charmonitor,path=/var/lib/libvirt/qemu/domain-3-node13/monitor.sock,server,nowait -mon chardev=charmonitor,id=monitor,mode=control -rtc base=utc,driftfix=slew -global kvm-pit.lost_tick_policy=delay -no-hpet -no-shutdown -global PIIX4_PM.disable_s3=1 -global PIIX4_PM.disable_s4=1 -boot strict=on -device ich9-usb-ehci1,id=usb,bus=pci.0,addr=0x5.0x7 -device ich9-usb-uhci1,masterbus=usb.0,firstport=0,bus=pci.0,multifunction=on,addr=0x5 -device ich9-usb-uhci2,masterbus=usb.0,firstport=2,bus=pci.0,addr=0x5.0x1 -device ich9-usb-uhci3,masterbus=usb.0,firstport=4,bus=pci.0,addr=0x5.0x2 -device virtio-serial-pci,id=virtio-serial0,bus=pci.0,addr=0x6 -drive file=/sdb/f3-sda.img,format=raw,if=none,id=drive-virtio-disk0 -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x7,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1 -drive file=/sdc/f3-sdb.img,format=raw,if=none,id=drive-virtio-disk1,cache=none -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0x9,drive=drive-virtio-disk1,id=virtio-disk1 -drive file=/sdc/f3-sdc.img,format=raw,if=none,id=drive-virtio-disk2,cache=none -device virtio-blk-pci,scsi=off,bus=pci.0,addr=0xa,drive=drive-virtio-disk2,id=virtio-disk2 -netdev tap,fd=28,id=hostnet0 -device e1000,netdev=hostnet0,id=net0,mac=52:54:00:23:81:1b,bus=pci.0,addr=0xb -netdev tap,fd=30,id=hostnet1 -device e1000,netdev=hostnet1,id=net1,mac=52:54:00:ff:77:03,bus=pci.0,addr=0xc -netdev tap,fd=31,id=hostnet2 -device e1000,netdev=hostnet2,id=net2,mac=52:54:00:9c:bb:90,bus=pci.0,addr=0xd -netdev tap,fd=32,id=hostnet3 -device e1000,netdev=hostnet3,id=net3,mac=52:54:00:30:9c:66,bus=pci.0,addr=0xe -netdev tap,fd=33,id=hostnet4 -device e1000,netdev=hostnet4,id=net4,mac=52:54:00:f9:bf:b6,bus=pci.0,addr=0x3 -chardev pty,id=charserial0 -device isa-serial,chardev=charserial0,id=serial0 -chardev socket,id=charchannel0,path=/var/lib/libvirt/qemu/channel/target/domain-3-node13/org.qemu.guest_agent.0,server,nowait -device virtserialport,bus=virtio-serial0.0,nr=1,chardev=charchannel0,id=channel0,name=org.qemu.guest_agent.0 -chardev spicevmc,id=charchannel1,name=vdagent -device virtserialport,bus=virtio-serial0.0,nr=2,chardev=charchannel1,id=channel1,name=com.redhat.spice.0 -device usb-tablet,id=input0,bus=usb.0,port=1 -spice port=5902,addr=127.0.0.1,disable-ticketing,seamless-migration=on -vga qxl -global qxl-vga.ram_size=67108864 -global qxl-vga.vram_size=67108864 -global qxl-vga.vgamem_mb=16 -global qxl-vga.max_outputs=1 -device intel-hda,id=sound0,bus=pci.0,addr=0x4 -device hda-duplex,id=sound0-codec0,bus=sound0.0,cad=0 -device virtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x8 -msg timestamp=on
+  738  ps aux | grep qemu | grep "file="
+  739  df
+  740  ls /sdb/
+  741  ls /sdc/
+  742  exit
+  743   /opt/MegaRAID/MegaCli/MegaCli64 -cfgdsply -aALL|less
+  744  top
+  745  ssh 172.16.175.40
+  746  top
+  747  ssh 172.16.175.40
+  748  top
+  749  iotop
+  750  yum install -y iotop
+  751  top
+  752  top
+  753  ssh root@172.16.175.40
+  754  /opt/MegaRAID/MegaCli/MegaCli64  -AdpBbuCmd -GetBbuStatus -aALL
+  755  /opt/MegaRAID/MegaCli/MegaCli64  -AdpBbuCmd -GetBbuStatus -aALL |grep 'Charger Status'
+  756   /opt/MegaRAID/MegaCli/MegaCli64  -AdpBbuCmd -GetBbuStatus -aALL |grep 'Charger Status'
+  757  /opt/MegaRAID/MegaCli/MegaCli64  -AdpBbuCmd -GetBbuStatus -aALL 
+  758  lscpu
+  759  free
+  760  lsblk
+  761  df -h
+  762  fdisk -l|grep dev
+  763  exit
+  764  /opt/MegaRAID/MegaCli/MegaCli64 -cfgdsply -aall|grep "PD Type"
+  765  exit
+  766  df
+  767  dd if=/dev/zero  bs=512 oflag=direct count=1000 of=/sdc/testfile
+  768  dd if=/dev/zero  bs=512 oflag=direct count=1000 of=/sdb/testfile
+  769  df
+  770  df -h
+  771  lsblk 
+  772  dd if=/dev/zero  bs=512 oflag=direct count=1000 of=/sdb/testfile
+  773  ssh root@172.16.175.40
+  774  df -h
+  775  fdisk -l /dev/sdd 
+  776  yum install sysstat
+  777  yum install sysstat -y
+  778  iostat -x 1
+  779  /opt/MegaRAID/MegaCli/MegaCli64  -AdpBbuCmd -GetBbuStatus -aALL
+  780   /opt/MegaRAID/MegaCli/MegaCli64 -cfgdsply -aALL|less
+  781  /opt/MegaRAID/MegaCli/MegaCli64 -PDList -aAll -NoLog
+  782  /opt/MegaRAID/MegaCli/MegaCli64 -PDList -aAll -NoLog | grep -i sas
+  783  iostat -x 1
+  784  ps aux 
+  785  ps aux  | grep qemu
+  786  df
+  787  iostat -x 1
+  788  ps aux  | grep qemu  | grep sdc
+  789  ps aux  | grep qemu  | grep sdb
+  790  ps aux  | grep qemu  | grep sdc
+  791  ps aux  | grep qemu  | grep sdc| grep 13
+  792  ps aux  | grep qemu | grep 13 | grep sdc
+  793  iostat -x 1
+  794  fdisk -l /dev/sdc 
+  795  fdisk -l /dev/sdb 
+  796  iostat -x 1
+  797  df -h
+  798  ip a
+  799  ping 172.16.1.165
+  800  df -h
+  801  ls
+  802  rpm -ql suzaku
+  803  cat host_ip.txt 
+  804  exit
+  805  virsh list
+  806  virsh list --all
+  807  virsh start node11
+  808  virsh start node12
+  809  virsh start node13
+  810  virsh start node14
+  811  virsh start node15
+  812  ip a
+  813  yum -y install ipmitool
+  814  ipmitool lan print 1
+  815  ipmitool user list 1
+  816  ipmitool lan set 1 ipaddr 172.16.2.165
+  817  ipmitool lan print 1
+  818  virsh list --all
+  819  virsh start
+  820  virsh start node11
+  821  virsh start node12
+  822  virsh start node13
+  823  virsh start node14
+  824  virsh start node15
+  825  exit
+  826  top
+  827  lscpu 
+  828  lsblk 
+  829  virsh list
+  830  virsh edit node11
+  831  virsh edit node12
+  832  virsh edit node13
+  833  virsh edit node14
+  834  virsh edit node15
+  835  for i in {11..15}; do virsh shutdown node%i ; sleep 10; ; virsh start node%i;done
+  836  for i in {11..15}; do virsh shutdown node%i ; sleep 10;  virsh start node%i;done
+  837  for i in {11..15}; do virsh shutdown node$i ; sleep 10;  virsh start node$i;done
+  838  virsh list
+  839  virsh start node11
+  840  virsh start node12
+  841  virsh start node13
+  842  virsh list
+  843  virsh edit node11
+  844  lscpu 
+  845  vim ~/.ssh/authorized_keys 
+  846  virsh list
+  847  virsh destory node11
+  848  virsh destroy node11
+  849  virsh destroy node12
+  850  virsh destroy node13
+  851  virsh destroy node14
+  852  virsh destroy node15
+  853  reboot
+  854  virsh list
+  855  lsblk 
+  856  systemctl status libvirtd
+  857  systemctl start libvirtd
+  858  systemctl enable libvirtd
+  859  virsh list --all
+  860  virsh start node11
+  861  virsh start node12
+  862  virsh start node13
+  863  virsh start node14
+  864  virsh start node15
+  865  ping 172.18.175.11
+  866  ping 172.18.175.12
+  867  ping 172.18.175.13
+  868  ping 172.18.175.14
+  869  ls
+  870  lsblk 
+  871  cd /sdb/
+  872  ls
+  873  rm -rf f4-sda.img 
+  874  cp f3-sda.img f4-sda.img
+  875  ls
+  876  cd ../sdc/
+  877  ls
+  878  ip a
+  879  virsh list
+  880  virsh destroy node14
+  881  virsh edit node14
+  882  virsh start node14
+  883  exit
+  884  virsh edit node11
+  885  ls
+  886  cat host_ip.txt 
+  887  vim host_ip.txt 
+  888  cat host_ip.txt 
+  889  egrep "141&root" host_ip.txt 
+  890  egrep "141&&root" host_ip.txt 
+  891  egrep "141\&root" host_ip.txt 
+  892  egrep 
+  893  man egr
+  894  man egrep
+  895  egrep "141*root" host_ip.txt 
+  896  egrep "141.*root" host_ip.txt 
+  897  exit
+  898  vim ~/.ssh/authorized_keys 
+  899  ps aux | grep qemu | grep qcow
+  900  exit
+  901  ssh 172.16.165.11
+  902  free -g
+  903  virsh list
+  904  virsh destroy node11
+  905  virsh destroy node12
+  906  virsh destroy node13
+  907  virsh destroy node14
+  908  virsh destroy node15
+  909  virsh start node11
+  910  virsh start node12
+  911  virsh start node13
+  912  virsh start node14
+  913  virsh start node15
+  914  ps aux | grep qemu
+  915  /usr/libexec/qemu-kvm --help
+  916  /usr/libexec/qemu-kvm --help|head
+  917  yum install -y epel-release
+  918  yum search qemu-system
+  919  yum install qemu-system-x86.x86_64
+  920  qemu-system-x86_64 
+  921  qemu-system-x86_64 --help
+  922  qemu-system-x86_64 --help |head
+  923  which qemu-system-x86_64 
+  924  /usr/bin/qemu-img --help
+  925  qemu-system-x86_64 -machine
+  926  qemu-system-x86_64 --help
+  927  qemu-system-x86_64 --help |less
+  928  qemu-system-x86_64 -machine --help
+  929  qemu-system-x86_64 --help |less
+  930  vim /etc/libvirt/qemu/node15.xml 
+  931  qemu-system-x86_64 --help 
+  932  qemu-system-x86_64 -machine --help
+  933  qemu-system-x86_64 -machine 
+  934  qemu-system-x86_64 -machine --help
+  935  qemu-system-x86_64 -machine --machine list
+  936  qemu-system-x86_64 -machine list
+  937  qemu-system-x86_64 -machine --list
+  938  qemu-system-x86_64 -machine 
+  939  qemu-system-x86_64 --help
+  940  qemu-system-x86_64 --help|less
+  941  qemu-system-x86_64 -machine help
+  942  qemu-system-x86_64 -machine help|grep pc-i440fx-rhel7.0.0
+  943  vim /etc/libvirt/qemu/node15.xml 
+  944  ip a
+  945  lsblk 
+  946  ip a
+  947  lspci | grep non
+  948  lspci | grep -i non
+  949  lsblk 
+  950  ip a
+  951  virsh list
+  952  virsh list --all
+  953  virsh start node11
+  954  virsh start node12
+  955  virsh start node13
+  956  virsh start node14
+  957  virsh start node15
+  958  exit
+  959  bl
+  960  lsblk 
+  961  reboot
+  962  lsblk 
+  963  virsh list
+  964  ip a
+  965  virsh list
+  966  virsh list --all
+  967  virsh start node11
+  968  virsh start node12
+  969  virsh start node13
+  970  virsh start node14
+  971  virsh start node15
+  972  ip a
+  973  virsh list
+  974  ip a
+  975  virsh list
+  976  virsh list --all
+  977  virsh start node11
+  978  virsh start node12
+  979  virsh start node13
+  980  virsh start node14
+  981  virsh start node15
+  982  ping 172.18.175.11
+  983  ip a
+  984  vi /etc/sysconfig/network-scripts/ifcfg-eno1 
+  985  systemctl restart network
+  986  ip a
+  987  ping baidu.com
+  988  ping 172.26.2.59
+  989  yum install ipmitool -y
+  990  ip a
+  991  ping 172.26.10.126
+  992  ipmitool print lan 1
+  993  ipmitool lan print 1
+  994  ipmitool lan set 1 ipaddr 172.26.1.58
+  995  ipmitool lan set 1 ipaddr defgw 172.26.1.1
+  996  ipmitool lan set 1 defgw ipaddr 172.26.1.1
+  997  ipmitool lan print 1
+  998  whereis ipmitool
+  999  dmesg
+ 1000  ip addr
+ 1001  df -h
+ 1002  name -a
+ 1003  uname -a
+ 1004  df -h
+ 1005  yum install -y python3-pip
+ 1006  mkdir oss
+ 1007  cd oss/
+ 1008  git clone https://github.com/giovtorres/kvm-install-vm.git
+ 1009  genisoimage virt-install libguestfs-tools-c qemu-img libvirt-client wget libosinfo
+ 1010  yum install genisoimage virt-install libguestfs-tools-c qemu-img libvirt-client wget libosinfo
+ 1011  yum install libvirt-nss
+ 1012  vim /etc/nsswitch.conf
+ 1013  kvm-install-vm help
+ 1014  ls
+ 1015  cd kvm-install-vm/
+ 1016  ls
+ 1017  cp ./kvm-install-vm /usr/bin/
+ 1018  kvm-install-vm -h
+ 1019  kvm-install-vm help
+ 1020* kvm-install-vm create -t centos7 
+ 1021  grep -nri centos7 .
+ 1022  vim ./.kivrc 
+ 1023  vim README.md 
+ 1024  vim ./kvm-install-vm
+ 1025  kvm-install-vm osinfo-query os
+ 1026  kvm-install-vm create osinfo-query os
+ 1027  vim ./kvm-install-vm
+ 1028  pwd
+ 1029  df -h
+ 1030  ls /sdb
+ 1031  mkdir /sdb/images
+ 1032  mkdir /sdb/vms
+ 1033  kvm-install-vm help create 
+ 1034  1kvm-install-vm help create -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D cs1.tc.com cs1
+ 1035  vim ./kvm-install-vm 
+ 1036  kvm-install-vm help create 
+ 1037  vim ./kvm-install-vm 
+ 1038  kvm-install-vm help create 
+ 1039  cp ./kvm-install-vm  /usr/bin/kvm-install-vm 
+ 1040  kvm-install-vm help create 
+ 1041  kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D cs1.tc.com cs1
+ 1042  vim /usr/bin/kvm-install-vm 
+ 1043  kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D cs1.tc.com cs1
+ 1044  cd /sdb/images/
+ 1045  ls
+ 1046  yum install axel
+ 1047  axel -n 20 https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1811.qcow2
+ 1048  ls
+ 1049  rm -rf CentOS-7-x86_64-GenericCloud-1811.qcow2.part
+ 1050  rm -rf CentOS-7-x86_64-GenericCloud.qcow2.part 
+ 1051  cd -
+ 1052  1axel -n 20 https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1811.qcow2
+ 1053  vim ./kvm-install-vm 
+ 1054  vim kvm-install-vm 
+ 1055  vimdiff /usr/bin/kvm-install-vm kvm-install-vm 
+ 1056  vim kvm-install-vm 
+ 1057  ./kvm-install-vm help create
+ 1058  vim kvm-install-vm 
+ 1059  history |grep install
+ 1060  kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -M1 52:54:00:b2:cb:b0 -M2 52:54:00:b2:cb:b1 cs1
+ 1061  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -M1 52:54:00:b2:cb:b0 -M2 52:54:00:b2:cb:b1 cs1
+ 1062  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -M1 '52:54:00:b2:cb:b0' -M2 '52:54:00:b2:cb:b1' cs1
+ 1063  vim kvm-install-vm 
+ 1064  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -M1 '52:54:00:b2:cb:b0' -M2 '52:54:00:b2:cb:b1' cs1
+ 1065  vim kvm-install-vm 
+ 1066  git diff
+ 1067  git status
+ 1068  git diff
+ 1069  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -M1 '52:54:00:b2:cb:b0' -M2 '52:54:00:b2:cb:b1' cs1
+ 1070  vim kvm-install-vm 
+ 1071  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -B '52:54:00:b2:cb:b0' -C '52:54:00:b2:cb:b1' cs1
+ 1072  yum install osinfo-db.
+ 1073  yum install osinfo-db
+ 1074  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -B '52:54:00:b2:cb:b0' -C '52:54:00:b2:cb:b1' cs1
+ 1075  virt-install --help
+ 1076  virt-install --network help
+ 1077  osinfo-query
+ 1078  osinfo-query centos
+ 1079  vim kvm-install-vm 
+ 1080  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -B '52:54:00:b2:cb:b0' -C '52:54:00:b2:cb:b1' cs1
+ 1081  osinfo-query os |grep rhel
+ 1082  osinfo-query os |grep centos
+ 1083  osinfo-db-import --help
+ 1084  osinfo --version
+ 1085  osinfo-detect
+ 1086  osinfo-detect /sdb/images/CentOS-7-x86_64-GenericCloud-1811.qcow2 
+ 1087  vim ./kvm-install-vm 
+ 1088  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos76 -d 50 -D tc.com -B '52:54:00:b2:cb:b0' -C '52:54:00:b2:cb:b1' cs1
+ 1089  vim ./kvm-install-vm 
+ 1090  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b0' -C '52:54:00:b2:cb:b1' cs1
+ 1091  virt-install --os-variant --help
+ 1092  virt-install help --os-variant
+ 1093  virt-install  --os-variant --help
+ 1094  history 
+ 1095  virt-install  --os-variant help
+ 1096  man virt-install
+ 1097  osinfo-query os
+ 1098  yum update osinfo-db
+ 1099  history |grep yum
+ 1100  cd ..
+ 1101  git clone https://gitlab.com/libosinfo/osinfo-db.git
+ 1102  cd osinfo-db/
+ 1103  yum remove osinfo-db
+ 1104  yum install osinfo-db-tools
+ 1105  export SOURCE_DATE_EPOCH="$(date +%s)"
+ 1106  ls
+ 1107  Make
+ 1108  make
+ 1109  cd ../kvm-install-vm/
+ 1110  ls
+ 1111  ./kvm-install-vm --help
+ 1112  ./kvm-install-vm help
+ 1113  ./kvm-install-vm list
+ 1114  virsh start cs1
+ 1115  virsh console cs1
+ 1116  grep -nr password kvm-install-vm 
+ 1117  virsh console cs1
+ 1118  dmesg
+ 1119  vim kvm-install-vm 
+ 1120  grep -nr root kvm-install-vm 
+ 1121  grep -anr root kvm-install-vm 
+ 1122  ./kvm-install-vm help
+ 1123  ./kvm-install-vm create help
+ 1124  ssh cs1
+ 1125  ./kvm-install-vm create help
+ 1126  vim ./kvm-install-vm 
+ 1127  ip addr
+ 1128  virsh console cs1
+ 1129  virsh info cs1
+ 1130  virsh dump cs1
+ 1131  virsh dumpinfo cs1
+ 1132  virsh help
+ 1133  virsh net-info cs1
+ 1134  virsh net-list
+ 1135  virsh net-info default
+ 1136  virsh net-dhcp-leases default
+ 1137  ssh 
+ 1138  ssh 192.168.122.253
+ 1139  ssh centos@192.168.122.253
+ 1140  virsh net-list
+ 1141  virsh net-info default
+ 1142  virsh domifaddr cs1
+ 1143  virsh net-info default
+ 1144  ssh centos@192.168.122.253
+ 1145  virsh edit cs1
+ 1146  vim kvm-install-vm 
+ 1147  virsh domiflist cs1
+ 1148  virsh detach-interface --domain vm1 --type network         --mac 52:53:00:4b:75:6f --config
+ 1149  virsh detach-interface --domain cs1 --type network  --mac 52:54:00:b2:cb:b1 --config
+ 1150  virsh detach-interface --domain cs1 --type bridge --mac 52:54:00:b2:cb:b1 --config
+ 1151  virsh domiflist cs1
+ 1152  virsh detach-interface --domain cs1 --type bridge --mac 52:54:00:b2:cb:b1 --config
+ 1153  virsh domiflist cs1
+ 1154  virsh edit cs1
+ 1155  virsh shudown cs1
+ 1156  virsh stop cs1
+ 1157  virsh help
+ 1158  virsh reboot cs1
+ 1159  virsh info cs1
+ 1160  virsh list
+ 1161  virsh reboot cs1
+ 1162  virsh list
+ 1163  virsh domiflist cs1
+ 1164  ssh centos@192.168.122.253
+ 1165  history |grep cs1
+ 1166  1./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b2' -C '52:54:00:b2:cb:b3' cs2
+ 1167  vim ./kvm-install-vm 
+ 1168  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b2' -C '52:54:00:b2:cb:b3' cs2
+ 1169  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b4' -C '52:54:00:b2:cb:b5' cs3
+ 1170  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b6' -C '52:54:00:b2:cb:b7' cs4
+ 1171  ./kvm-install-vm create -v -l /sdb/images/ -L /sdb/vms/ -t centos7 -d 50 -D tc.com -B '52:54:00:b2:cb:b8' -C '52:54:00:b2:cb:b9' cs5
+ 1172  history |grep dhcp
+ 1173  virsh net-dhcp-leases default
+ 1174  ssh 192.168.122.248/24
+ 1175  ssh 192.168.122.248
+ 1176  vim ./kvm-install-vm 
+ 1177  history 
+ 1178  ssh centos@192.168.122.248
+ 1179  ssh 192.168.122.248
+ 1180  ssh centos@192.168.122.248
+ 1181  df -h
+ 1182  virsh net-dhcp-leases default
+ 1183  ssh centos@192.168.122.248
+ 1184  virsh domiflist cs1
+ 1185  virsh domiflist cs2
+ 1186  ip addr
+ 1187  virsh domiflist cs2
+ 1188  virsh domiflist cs1
+ 1189  virsh domiflist cs3
+ 1190  virsh domiflist cs4
+ 1191  virsh domiflist cs5
+ 1192  virsh domiflist cs6
+ 1193  virsh domiflist cs5
+ 1194  brctl show
+ 1195  virsh net-list --all
+ 1196  virsh net-edit default
+ 1197  vim private.xml
+ 1198  vim public.xml
+ 1199  virsh net-define private.xml
+ 1200  virsh net-define public.xml 
+ 1201  virsh net-list --all
+ 1202  virsh net-start private
+ 1203  virsh net-start public
+ 1204  virsh net-list --all
+ 1205  ip addr
+ 1206  virsh edit cs1
+ 1207  virsh shutdown cs2
+ 1208  virsh shutdown cs3
+ 1209  virsh shutdown cs4
+ 1210  virsh shutdown cs5
+ 1211  virsh edit cs2
+ 1212  virsh edit cs1
+ 1213  virsh edit cs2
+ 1214  virsh edit cs3
+ 1215  virsh edit cs4
+ 1216  virsh edit cs5
+ 1217  virsh start cs1
+ 1218  virsh start cs2
+ 1219  virsh start cs3
+ 1220  virsh start cs4
+ 1221  virsh start cs5
+ 1222  ip addr
+ 1223  virsh net-dhcp-leases default
+ 1224  virsh net-dhcp-leases private
+ 1225  virsh net-dhcp-leases public
+ 1226  virsh shutdown cs1
+ 1227  virsh start cs1
+ 1228  virsh net-dhcp-leases public
+ 1229  virsh net-dhcp-leases private
+ 1230  virsh net-dhcp-leases default
+ 1231  virsh edit cs1
+ 1232  ssh centos@192.168.122.208
+ 1233  ssh centos@192.168.122.209
+ 1234  virsh list
+ 1235  ssh centos@192.168.122.253
+ 1236  virsh net-dhcp-leases default
+ 1237  ssh centos@192.168.122.184
+ 1238  ./kvm-install-vm help
+ 1239* ./kvm-install-vm cr
+ 1240  virsh net-dhcp-leases default
+ 1241  vim /etc/hosts
+ 1242  ssh centos@cs2
+ 1243  virsh reboot cs2
+ 1244  ssh centos@cs2
+ 1245  ssh centos@cs3
+ 1246  ssh centos@cs4
+ 1247  ssh centos@cs5
+ 1248  ssh centos@cs1
+ 1249  ip addr
+ 1250  ls /root/oss/
+ 1251  cd ..
+ 1252  ls
+ 1253  tar xvf XDFS-5.5.6_SP1.tar.gz 
+ 1254  ls
+ 1255  rsync -av XDFS-5.5.6_SP1.tar.gz centos@cs1:/home/centos 
+ 1256  history 
+ 1257  history > history1
