@@ -90,6 +90,7 @@ rootpw 111111
 @core
 @base
 vim
+epel-release
 bash-completion
 
 %end
