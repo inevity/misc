@@ -1,0 +1,55 @@
+diff --git a/inventory.yml b/inventory.yml
+index 435f827..ead4479 100644
+--- a/inventory.yml
++++ b/inventory.yml
+@@ -1,10 +1,10 @@
+ ---
+ proxmox:
+   hosts:
+-    192.168.2.31:
+-    192.168.2.32:
++#    192.168.2.31:
++    172.16.167.219:
+   vars:
+     ansible_user: root
+-    ansible_password: 
++    ansible_password: 123456 
+     ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+     ansible_python_interpreter: auto_silent
+diff --git a/vars.yml b/vars.yml
+index 77e0177..f9e3828 100644
+--- a/vars.yml
++++ b/vars.yml
+@@ -3,18 +3,18 @@
+ 
+ # PVE Template Provisioning Variables
+ template_name:  2019DC-tpl
+-pve_storage_id: vm-store
++pve_storage_id: sdb2t
+ vm_cores: 2
+ vm_sockets: 2
+-vm_memory_mb: 2048
++vm_memory_mb: 4096
+ vm_os_type: win10
+ # vm_os_type must be valid value per https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines
+-drive_size_gb: 50
++drive_size_gb: 80
+ start_at_boot: no
+ os_iso_location: local:iso/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso
+ format: qcow2
+ # qcow2 or raw if on lvm
+-agent: enabled=0
++agent: enabled=1
+ # Enable with: 'enabled=1,fstrim_cloned_disks=1,type=virtio'
+ 
+ # Unattend.xml template variables:
+@@ -22,6 +22,6 @@ deploy_image: 'Windows Server 2019 SERVERDATACENTER'
+ # Applicable 2019 options for deploy_image: 
+ # Windows Server 2019 SERVERDATACENTER, Windows Server 2019 SERVERDATACENTERCORE,
+ # Windows Server 2019 SERVERSTANDARD, Windows Server 2019 SERVERSTANDARDCORE
+-vm_admin_pass: AnsibleReady!
+-vm_time_zone: 'Eastern Standard Time'
+-org_name: 'Layer8Sys'
++vm_admin_pass: 123456
++vm_time_zone: 'China Standard Time'
++org_name: 'TaoCloud'
